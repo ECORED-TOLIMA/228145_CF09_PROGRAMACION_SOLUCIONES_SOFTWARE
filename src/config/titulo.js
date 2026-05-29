@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Diseño orientado a objetos y arquitectura de software'

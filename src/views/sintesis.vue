@@ -2,11 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    p El componente formativo aborda los fundamentos y procesos esenciales para el diseño de software, iniciando con el análisis de requerimientos y la interpretación del informe de análisis como base para la toma de decisiones de diseño. Posteriormente, se presentan los principios del diseño orientado a objetos y los criterios de calidad que orientan la construcción de soluciones estructuradas y mantenibles. A partir de estos fundamentos, se estudian herramientas de modelado como los diagramas de clases y las vistas del sistema, que permiten representar la estructura y organización de una aplicación. Asimismo, se analizan los patrones de diseño y su clasificación, junto con los principales enfoques de arquitectura de software, incluyendo modelos como cliente-servidor y Modelo Vista Controlador (MVC). Finalmente, se examinan arquitecturas modernas y prácticas actuales de desarrollo, como servicios, APIs, microservicios, serverless y DevOps, además de las plataformas tecnológicas, los motores de bases de datos y los documentos de diseño que permiten definir y documentar la arquitectura candidata de un sistema.
+
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt=" En la síntesis se presenta una descripción general de los aspectos fundamentales del diseño de software, incluyendo el análisis de requerimientos, los principios del diseño orientado a objetos, el modelado del sistema y el uso de patrones de diseño. Asimismo, se abordan diferentes arquitecturas de software, prácticas modernas de desarrollo y las plataformas tecnológicas utilizadas para documentar y definir la arquitectura de un sistema.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

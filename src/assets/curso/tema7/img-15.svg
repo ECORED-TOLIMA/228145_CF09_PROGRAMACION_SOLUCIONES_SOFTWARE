@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path63" d="M0-682.665H45.289v45.289H0Z" transform="translate(0 682.665)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1185460" data-name="Grupo 1185460" transform="translate(-882.711 -7565)">
+    <rect id="Rectángulo_456655" data-name="Rectángulo 456655" width="84" height="84" rx="42" transform="translate(882.711 7565)" fill="#19538d"/>
+    <g id="g57" transform="translate(901.711 8266.665)">
+      <g id="g59" transform="translate(0 -682.665)">
+        <g id="g61" clip-path="url(#clip-path)">
+          <path id="path67" d="M45.289-669.22H0v-13.445H45.289ZM2.654-671.873H42.635v-8.138H2.654Z" transform="translate(0 682.665)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="g69" transform="translate(5.396 -677.181)">
+        <path id="path71" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g73" transform="translate(10.703 -677.181)">
+        <path id="path75" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g77" transform="translate(16.01 -677.181)">
+        <path id="path79" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g81" transform="translate(26.625 -677.181)">
+        <path id="path83" d="M-186.731-17.346H-200V-20h13.268Z" transform="translate(200 20)" fill="#fff"/>
+      </g>
+      <g id="g85" transform="translate(0 -682.665)">
+        <g id="g87" clip-path="url(#clip-path)">
+          <path id="path93" d="M45.289-426.731H0V-440H45.289ZM2.654-429.384H42.635v-7.961H2.654Z" transform="translate(0 456.098)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="g95" transform="translate(5.396 -661.259)">
+        <path id="path97" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g99" transform="translate(10.703 -661.259)">
+        <path id="path101" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g103" transform="translate(16.01 -661.259)">
+        <path id="path105" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g107" transform="translate(26.625 -661.259)">
+        <path id="path109" d="M-186.731-17.346H-200V-20h13.268Z" transform="translate(200 20)" fill="#fff"/>
+      </g>
+      <g id="g111" transform="translate(0 -682.665)">
+        <g id="g113" clip-path="url(#clip-path)">
+          <path id="path119" d="M45.289-186.731H0V-200H45.289ZM2.654-189.385H42.635v-7.961H2.654Z" transform="translate(0 232.02)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="g121" transform="translate(5.396 -645.337)">
+        <path id="path123" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g125" transform="translate(10.703 -645.337)">
+        <path id="path127" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g129" transform="translate(16.01 -645.337)">
+        <path id="path131" d="M-37.346-17.346H-40V-20h2.654Z" transform="translate(40 20)" fill="#fff"/>
+      </g>
+      <g id="g133" transform="translate(26.625 -645.337)">
+        <path id="path135" d="M-186.731-17.346H-200V-20h13.268Z" transform="translate(200 20)" fill="#fff"/>
+      </g>
+      <g id="g137" transform="translate(0 -682.665)">
+        <g id="g139" clip-path="url(#clip-path)">
+          <g id="g145" transform="translate(2.742 12.118)">
+            <path id="path147" d="M-17.346,5.307H-20V0h2.654Z" transform="translate(20 0)" fill="#fff"/>
+          </g>
+          <g id="g149" transform="translate(39.893 12.118)">
+            <path id="path151" d="M-17.346,5.307H-20V0h2.654Z" transform="translate(20 0)" fill="#fff"/>
+          </g>
+          <g id="g153" transform="translate(2.742 28.04)">
+            <path id="path155" d="M-17.346,5.307H-20V0h2.654Z" transform="translate(20 0)" fill="#fff"/>
+          </g>
+          <g id="g157" transform="translate(39.893 28.04)">
+            <path id="path159" d="M-17.346,5.307H-20V0h2.654Z" transform="translate(20 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
