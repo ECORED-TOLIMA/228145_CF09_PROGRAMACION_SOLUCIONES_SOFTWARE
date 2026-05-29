@@ -215,11 +215,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -241,23 +236,97 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'API (Interfaz de Programación de Aplicaciones)',
+      significado:
+        'conjunto de reglas y mecanismos que permite que diferentes aplicaciones o sistemas se comuniquen entre sí e intercambien información o funcionalidades.',
+    },
+    {
+      termino: 'Arquitectura de software',
+      significado:
+        'estructura fundamental de un sistema de software que define la organización de sus componentes, sus relaciones y los principios que guían su diseño y evolución.',
+    },
+    {
+      termino: 'Arquitectura cliente-servidor',
+      significado:
+        'modelo de arquitectura en el que los clientes solicitan servicios o recursos y los servidores procesan esas solicitudes y envían las respuestas correspondientes.',
+    },
+    {
+      termino: 'Arquitectura orientada a servicios (SOA)',
+      significado:
+        'enfoque arquitectónico basado en la creación de servicios reutilizables que pueden ser utilizados por diferentes aplicaciones dentro de un sistema o entre varios sistemas.',
+    },
+    {
+      termino: 'DevOps',
+      significado:
+        'conjunto de prácticas que integran el desarrollo de software y las operaciones de tecnología para mejorar la colaboración, automatizar procesos y acelerar la entrega de aplicaciones.',
+    },
+    {
+      termino: 'Diagrama de clases',
+      significado:
+        'representación gráfica utilizada en el modelado orientado a objetos que presenta las clases de un sistema, sus atributos, métodos y relaciones.',
+    },
+    {
+      termino: 'GraphQL',
+      significado:
+        'lenguaje de consulta para APIs que permite a los clientes solicitar exactamente los datos que necesitan, optimizando la comunicación entre cliente y servidor.',
+    },
+    {
+      termino: 'Modelo Vista Controlador (MVC)',
+      significado:
+        'patrón arquitectónico que separa una aplicación en tres componentes: modelo (gestión de datos), vista (interfaz de usuario) y controlador (lógica que conecta ambos).',
+    },
+    {
+      termino: 'Plataforma tecnológica',
+      significado:
+        'conjunto de herramientas, lenguajes, frameworks y recursos tecnológicos utilizados para desarrollar, ejecutar y mantener aplicaciones de software.',
+    },
+    {
+      termino: 'REST (Representational State Transfer)',
+      significado:
+        'estilo arquitectónico utilizado para diseñar servicios web que se comunican mediante protocolos estándar de Internet, generalmente utilizando HTTP.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice (4th ed.). Addison-Wesley Professional.',
+      link: '',
+    },
+    {
+      referencia:
+        'BEcosistema de Recursos Educativos Digitales SENA. (2021). Bases de datos relacionales y no relacionales [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=r97Ko4ZvIDQ',
+    },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Patrones creacionales [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=_KZkbL0MMbQ',
+    },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). Componentes de una arquitectura de software [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=kiV7aeJCqUQ',
+    },
+    {
+      referencia:
+        'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns: Elements of reusable object-oriented software. Addison-Wesley.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pressman, R. S., & Maxim, B. R. (2020). Software engineering: A practitioner’s approach (9th ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sommerville, I. (2016). Software engineering (10th ed.). Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Shaw, M., & Garlan, D. (1996). Software architecture: Perspectives on an emerging discipline. Prentice Hall.',
       link: '',
     },
   ],
