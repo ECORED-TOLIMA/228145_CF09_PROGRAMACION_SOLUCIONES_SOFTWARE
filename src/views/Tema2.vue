@@ -7,7 +7,7 @@
         span 2
       h1 Fundamentos del diseño orientado a objetos
 
-    p.mb-4 El diseño orientado a objetos es un enfoque de desarrollo de software que organiza los sistemas a partir de objetos, los cuales representan entidades del mundo real o conceptos del dominio del problema. Cada objeto integra datos y comportamientos, lo que permite estructurar el software de manera modular, comprensible y fácil de mantener.
+    p.mb-4 El diseño orientado a objetos es un enfoque de desarrollo de #[i software] que organiza los sistemas a partir de objetos, los cuales representan entidades del mundo real o conceptos del dominio del problema. Cada objeto integra datos y comportamientos, lo que permite estructurar el #[i software] de manera modular, comprensible y fácil de mantener.
     
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -18,7 +18,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p El diseño orientado a objetos facilita la construcción de sistemas más organizados y adaptables, ya que permite dividir la complejidad del software en componentes más pequeños e independientes. De esta manera, es posible modificar o ampliar ciertas partes del sistema sin afectar de forma significativa el funcionamiento del resto de la aplicación.
+        p El diseño orientado a objetos facilita la construcción de sistemas más organizados y adaptables, ya que permite dividir la complejidad del #[i software] en componentes más pequeños e independientes. De esta manera, es posible modificar o ampliar ciertas partes del sistema sin afectar de forma significativa el funcionamiento del resto de la aplicación.
         p Entre las características que distinguen este enfoque se encuentran:
 
         .tarjeta-bg02.p-4.mb-4
@@ -41,7 +41,7 @@
                   | Flexibilidad para extender o modificar funcionalidades del sistema.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Organización modular que facilita el mantenimiento y evolución del software.
+                  | Organización modular que facilita el mantenimiento y evolución del #[i software].
 
         p El diseño orientado a objetos se utiliza ampliamente en el desarrollo de aplicaciones modernas, ya que permite construir sistemas más robustos y escalables. Además, este enfoque se integra con herramientas de modelado como los diagramas del lenguaje UML, los cuales permiten representar de manera estructurada los elementos que conforman el sistema antes de su implementación.
 
@@ -50,7 +50,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.1. Conceptos del diseño orientado a objetos
 
-    p El diseño orientado a objetos se fundamenta en un conjunto de conceptos que permiten estructurar el software mediante componentes independientes que interactúan entre sí. Estos conceptos facilitan la organización del código, la reutilización de funcionalidades y la construcción de sistemas más flexibles y mantenibles.
+    p El diseño orientado a objetos se fundamenta en un conjunto de conceptos que permiten estructurar el #[i software] mediante componentes independientes que interactúan entre sí. Estos conceptos facilitan la organización del código, la reutilización de funcionalidades y la construcción de sistemas más flexibles y mantenibles.
     p.mb-4 A continuación, se presentan algunos de los conceptos más importantes utilizados en el diseño orientado a objetos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
@@ -101,12 +101,12 @@
     .row.justify-content-center
       .col-lg-10
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0 Estos conceptos constituyen la base del diseño orientado a objetos y permiten construir sistemas organizados, flexibles y fáciles de evolucionar. En el siguiente apartado se presentan los principios que orientan la calidad del diseño de software.
+          p.mb-0 Estos conceptos constituyen la base del diseño orientado a objetos y permiten construir sistemas organizados, flexibles y fáciles de evolucionar. En el siguiente apartado se presentan los principios que orientan la calidad del diseño de #[i software].
 
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 2.2. Principios de calidad en el diseño de software
+      h2 2.2. Principios de calidad en el diseño de #[i software]
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -115,10 +115,10 @@
             .col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/tema2/img-10.svg", alt="alt").img100.m-auto
             .col-lg-11
-              p El diseño de software no solo busca estructurar correctamente los componentes de un sistema, sino también garantizar que el producto resultante cumpla con criterios de calidad que faciliten su evolución, mantenimiento y adaptación a diferentes contextos tecnológicos. Para ello, el diseño orientado a objetos se apoya en una serie de principios que orientan la construcción de sistemas eficientes, robustos y sostenibles en el tiempo.
+              p El diseño de #[i software] no solo busca estructurar correctamente los componentes de un sistema, sino también garantizar que el producto resultante cumpla con criterios de calidad que faciliten su evolución, mantenimiento y adaptación a diferentes contextos tecnológicos. Para ello, el diseño orientado a objetos se apoya en una serie de principios que orientan la construcción de sistemas eficientes, robustos y sostenibles en el tiempo.
 
     p Estos principios permiten evaluar si una solución técnica es adecuada y si el sistema podrá responder a cambios futuros sin generar altos costos de modificación.
-    p.mb-4 A continuación, se presentan algunos de los principios de calidad más relevantes en el diseño de software.
+    p.mb-4 A continuación, se presentan algunos de los principios de calidad más relevantes en el diseño de #[i software].
 
     .cajon.tabs-a__tab.p-5.mb-4
       SlyderB(:datos="datosSlyder")  
@@ -149,13 +149,13 @@ export default {
       {
         titulo: 'Mantenibilidad',
         texto:
-          'Describe la facilidad con la que el software puede ser corregido, actualizado o mejorado. Un diseño claro, modular y bien documentado facilita la identificación de errores y la implementación de mejoras.',
+          'Describe la facilidad con la que el <em>software</em> puede ser corregido, actualizado o mejorado. Un diseño claro, modular y bien documentado facilita la identificación de errores y la implementación de mejoras.',
         imagen: require('@/assets/curso/tema2/img-13.png'),
       },
       {
         titulo: 'Reusabilidad',
         texto:
-          'Implica que los componentes del sistema puedan utilizarse en otros proyectos o en diferentes partes del mismo sistema. Esto reduce el tiempo de desarrollo y mejora la consistencia del software.',
+          'Implica que los componentes del sistema puedan utilizarse en otros proyectos o en diferentes partes del mismo sistema. Esto reduce el tiempo de desarrollo y mejora la consistencia del #[i software].',
         imagen: require('@/assets/curso/tema2/img-14.png'),
       },
       {

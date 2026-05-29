@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Desafío del arquitecto del <em>software.</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales relacionados con el análisis, diseño y arquitectura de software, incluyendo el diseño orientado a objetos, el modelado del sistema, los patrones de diseño, las arquitecturas modernas y las plataformas tecnológicas utilizadas en el desarrollo de <em>software.</em>',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

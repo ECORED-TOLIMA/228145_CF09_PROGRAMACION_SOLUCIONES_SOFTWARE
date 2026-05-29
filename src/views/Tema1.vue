@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Análisis y toma de decisiones en el diseño de software
+      h1 Análisis y toma de decisiones en el diseño de #[i software]
 
-    p.mb-4 El análisis en el diseño de software corresponde a la etapa en la que se estudian los requerimientos del sistema con el fin de comprender el problema que se desea resolver y definir una base clara para la construcción de la solución tecnológica. Durante este proceso se revisa la información obtenida en la fase de análisis del sistema, identificando las necesidades de los usuarios, las funciones que debe cumplir la aplicación y las condiciones del entorno en el que operará.
+    p.mb-4 El análisis en el diseño de #[i software] corresponde a la etapa en la que se estudian los requerimientos del sistema con el fin de comprender el problema que se desea resolver y definir una base clara para la construcción de la solución tecnológica. Durante este proceso se revisa la información obtenida en la fase de análisis del sistema, identificando las necesidades de los usuarios, las funciones que debe cumplir la aplicación y las condiciones del entorno en el que operará.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#68EAE0 !important")
       .bloque-texto-gg__texto.p-4
-        p A partir de esta comprensión inicial, el equipo de desarrollo puede transformar los requerimientos en decisiones de diseño que orienten la estructura del software. Estas decisiones influyen en la organización de los componentes del sistema, la forma en que interactúan entre sí y las tecnologías que pueden emplearse para su implementación.
-        p.mb-0 El análisis no se limita únicamente a revisar los requerimientos funcionales del sistema. También implica considerar aspectos relacionados con el desempeño, la seguridad, la escalabilidad y la facilidad de mantenimiento del software, ya que estos factores influyen directamente en la calidad y sostenibilidad de la solución desarrollada.
+        p A partir de esta comprensión inicial, el equipo de desarrollo puede transformar los requerimientos en decisiones de diseño que orienten la estructura del #[i software]. Estas decisiones influyen en la organización de los componentes del sistema, la forma en que interactúan entre sí y las tecnologías que pueden emplearse para su implementación.
+        p.mb-0 El análisis no se limita únicamente a revisar los requerimientos funcionales del sistema. También implica considerar aspectos relacionados con el desempeño, la seguridad, la escalabilidad y la facilidad de mantenimiento del #[i software], ya que estos factores influyen directamente en la calidad y sostenibilidad de la solución desarrollada.
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema1/img-01v.png')})`}"
       )
@@ -22,24 +22,24 @@
         figure
           img(src='@/assets/curso/tema1/img-02.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") En este contexto, la toma de decisiones en el diseño de software requiere evaluar diferentes alternativas de solución y seleccionar aquellas que permitan responder de manera adecuada a las necesidades del proyecto. Para ello, es necesario analizar el problema desde una perspectiva técnica y funcional, considerando los recursos disponibles, las restricciones del entorno y los objetivos del sistema.
+        p.mb-0(data-aos="fade-down") En este contexto, la toma de decisiones en el diseño de #[i software] requiere evaluar diferentes alternativas de solución y seleccionar aquellas que permitan responder de manera adecuada a las necesidades del proyecto. Para ello, es necesario analizar el problema desde una perspectiva técnica y funcional, considerando los recursos disponibles, las restricciones del entorno y los objetivos del sistema.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0 Un proceso de análisis bien estructurado permite reducir riesgos en el desarrollo, mejorar la organización del sistema y facilitar la implementación de soluciones que sean comprensibles, adaptables y mantenibles a lo largo del tiempo. Por esta razón, el análisis y la toma de decisiones constituyen una base fundamental dentro del proceso de diseño de software.
+          p.mb-0 Un proceso de análisis bien estructurado permite reducir riesgos en el desarrollo, mejorar la organización del sistema y facilitar la implementación de soluciones que sean comprensibles, adaptables y mantenibles a lo largo del tiempo. Por esta razón, el análisis y la toma de decisiones constituyen una base fundamental dentro del proceso de diseño de #[i software].
 
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1. Interpretación del informe de análisis
 
-    p.mb-4 La interpretación del informe de análisis consiste en examinar y comprender la información obtenida durante el levantamiento de requerimientos del sistema. Este informe reúne los resultados del estudio del problema, las necesidades de los usuarios, las funcionalidades esperadas y las restricciones que pueden influir en el desarrollo del software.
+    p.mb-4 La interpretación del informe de análisis consiste en examinar y comprender la información obtenida durante el levantamiento de requerimientos del sistema. Este informe reúne los resultados del estudio del problema, las necesidades de los usuarios, las funcionalidades esperadas y las restricciones que pueden influir en el desarrollo del #[i software].
 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta-bg01.p-4.mb-4
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img-03.svg", alt="alt").img100.m-auto
             .col-lg-10
@@ -103,7 +103,7 @@
               tr(data-aos="fade-right")
                 td Requerimientos no funcionales.
                 td Calidad del sistema (rendimiento, seguridad y disponibilidad).
-                td Influyen en la arquitectura del software.
+                td Influyen en la arquitectura del #[i software].
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Actores del sistema.
                 td(style="background-color: #F0F8FF;") Usuarios o sistemas externos que interactúan.
@@ -118,14 +118,14 @@
                 td(style="background-color: #F0F8FF;") Condicionan decisiones tecnológicas.
 
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0 En síntesis, la interpretación del informe de análisis permite comprender de manera estructurada los requerimientos del sistema y constituye la base para la toma de decisiones durante el diseño del software.
+          p.mb-0 En síntesis, la interpretación del informe de análisis permite comprender de manera estructurada los requerimientos del sistema y constituye la base para la toma de decisiones durante el diseño del #[i software].
 
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2. Análisis de requerimientos y toma de decisiones de diseño
 
-    p.mb-4 El análisis de requerimientos es el proceso mediante el cual se examina y organiza la información obtenida durante la etapa de análisis del sistema con el propósito de comprender con mayor precisión las necesidades que debe satisfacer el software. A partir de este análisis se identifican las funcionalidades que debe ofrecer el sistema, las restricciones técnicas existentes y los criterios de calidad que orientarán su desarrollo.
+    p.mb-4 El análisis de requerimientos es el proceso mediante el cual se examina y organiza la información obtenida durante la etapa de análisis del sistema con el propósito de comprender con mayor precisión las necesidades que debe satisfacer el #[i software]. A partir de este análisis se identifican las funcionalidades que debe ofrecer el sistema, las restricciones técnicas existentes y los criterios de calidad que orientarán su desarrollo.
 
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -173,7 +173,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema1/img-15.png', alt='')
 
-        p.mb-4 Una vez analizados los requerimientos, el equipo de desarrollo debe tomar decisiones de diseño que permitan definir la forma en que el sistema será construido. Estas decisiones influyen directamente en la arquitectura del software, la organización de los componentes y las tecnologías seleccionadas.
+        p.mb-4 Una vez analizados los requerimientos, el equipo de desarrollo debe tomar decisiones de diseño que permitan definir la forma en que el sistema será construido. Estas decisiones influyen directamente en la arquitectura del #[i software], la organización de los componentes y las tecnologías seleccionadas.
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
@@ -208,7 +208,7 @@
                 td(style="background-color: #F0F8FF;") Planificación del desarrollo.
 
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0 En este sentido, el análisis de requerimientos y la toma de decisiones de diseño se encuentran estrechamente relacionados, ya que cada decisión técnica debe basarse en la comprensión clara de las necesidades del sistema. Una adecuada interpretación de los requerimientos permite definir soluciones más coherentes, escalables y mantenibles dentro del proceso de desarrollo de software.
+          p.mb-0 En este sentido, el análisis de requerimientos y la toma de decisiones de diseño se encuentran estrechamente relacionados, ya que cada decisión técnica debe basarse en la comprensión clara de las necesidades del sistema. Una adecuada interpretación de los requerimientos permite definir soluciones más coherentes, escalables y mantenibles dentro del proceso de desarrollo de #[i software].
 
 
 </template>

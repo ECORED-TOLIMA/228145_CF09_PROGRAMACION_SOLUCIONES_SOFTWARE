@@ -7,12 +7,12 @@
         span 3
       h1 Modelado orientado a objetos
 
-    p.mb-4 El modelado orientado a objetos es una técnica utilizada para representar de manera estructurada los elementos que componen un sistema de software y las relaciones que existen entre ellos. Este proceso permite visualizar la organización del sistema antes de su implementación, facilitando la comprensión del diseño y la comunicación entre los diferentes miembros del equipo de desarrollo.
+    p.mb-4 El modelado orientado a objetos es una técnica utilizada para representar de manera estructurada los elementos que componen un sistema de #[i software] y las relaciones que existen entre ellos. Este proceso permite visualizar la organización del sistema antes de su implementación, facilitando la comprensión del diseño y la comunicación entre los diferentes miembros del equipo de desarrollo.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#68EAE0 !important")
       .bloque-texto-gg__texto.p-4
         p A través del modelado, los diseñadores pueden describir cómo se estructuran las clases, cómo interactúan los componentes y cómo se distribuyen los elementos dentro de la arquitectura del sistema. Esta representación ayuda a identificar posibles problemas en etapas tempranas del desarrollo y permite realizar ajustes antes de iniciar la fase de programación.
-        p.mb-0 El modelado orientado a objetos se apoya en diagramas que permiten representar diferentes perspectivas del sistema. Estos diagramas forman parte del Lenguaje Unificado de Modelado (UML), ampliamente utilizado en la ingeniería de software para documentar y comunicar decisiones de diseño.
+        p.mb-0 El modelado orientado a objetos se apoya en diagramas que permiten representar diferentes perspectivas del sistema. Estos diagramas forman parte del Lenguaje Unificado de Modelado (UML), ampliamente utilizado en la ingeniería de #[i software] para documentar y comunicar decisiones de diseño.
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema3/img-01.png')})`}"
       )
@@ -59,7 +59,7 @@
         ul.lista-ul.mb-0
           li.mb-0
             i.lista-ul__vineta
-            p Facilitar la documentación del diseño de software.
+            p Facilitar la documentación del diseño de #[i software].
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -77,7 +77,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img-07.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Este tipo de representación facilita comprender cómo se organiza la información dentro del sistema y cómo interactúan los diferentes elementos que lo componen. Por esta razón, los diagramas de clases se utilizan con frecuencia durante la etapa de diseño para planificar la estructura del software antes de iniciar la programación.
+        p Este tipo de representación facilita comprender cómo se organiza la información dentro del sistema y cómo interactúan los diferentes elementos que lo componen. Por esta razón, los diagramas de clases se utilizan con frecuencia durante la etapa de diseño para planificar la estructura del #[i software] antes de iniciar la programación.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -219,24 +219,24 @@
             .col-lg-10
               p Un Usuario puede solicitar uno o varios Préstamos, mientras que cada Préstamo se asocia con un Libro específico. Además, el sistema registra información relevante como la fecha de préstamo y la fecha de devolución.
               p.mb-0 El diagrama de clases permite representar estas relaciones y comprender la estructura del sistema antes de implementar la solución.
-        p En síntesis, los diagramas de clases constituyen una herramienta fundamental para el diseño de software, ya que permiten organizar la estructura del sistema, identificar las relaciones entre los componentes y facilitar la documentación del diseño dentro del proceso de desarrollo orientado a objetos.
+        p En síntesis, los diagramas de clases constituyen una herramienta fundamental para el diseño de #[i software], ya que permiten organizar la estructura del sistema, identificar las relaciones entre los componentes y facilitar la documentación del diseño dentro del proceso de desarrollo orientado a objetos.
 
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2. Vistas del sistema
 
-    p.mb-4 En el proceso de diseño de software, los sistemas suelen ser complejos y están compuestos por múltiples componentes que interactúan entre sí. Para facilitar su comprensión y organización, se utilizan vistas del sistema, las cuales permiten representar el sistema desde diferentes perspectivas.
+    p.mb-4 En el proceso de diseño de #[i software], los sistemas suelen ser complejos y están compuestos por múltiples componentes que interactúan entre sí. Para facilitar su comprensión y organización, se utilizan vistas del sistema, las cuales permiten representar el sistema desde diferentes perspectivas.
 
     .row.no-gutters.align-items-center.style___box_1.m-0.mb-4(data-aos="zoom-in")
       .col-xl.px-0
         p Cada vista describe un aspecto particular del sistema, lo que permite analizarlo de manera estructurada sin necesidad de prestar atención a todos sus elementos al mismo tiempo. De esta forma, las vistas ayudan a comprender cómo funciona el sistema, cómo se organiza y cómo interactúan sus componentes.
-        p.mb-0 El uso de vistas resulta especialmente útil en proyectos de desarrollo de software, ya que diferentes actores como analistas, diseñadores, desarrolladores o arquitectos, pueden enfocarse en la información que resulta más relevante para su rol.
+        p.mb-0 El uso de vistas resulta especialmente útil en proyectos de desarrollo de #[i software], ya que diferentes actores como analistas, diseñadores, desarrolladores o arquitectos, pueden enfocarse en la información que resulta más relevante para su rol.
       .col-xl-auto.px-0.col-img-box
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/tema3/img-13.png', alt='').m-auto
 
-    p.mb-4 En el diseño de software existen diferentes tipos de vistas que permiten representar diversos aspectos del sistema.
+    p.mb-4 En el diseño de #[i software] existen diferentes tipos de vistas que permiten representar diversos aspectos del sistema.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -261,20 +261,20 @@
                 td Analizar el comportamiento dinámico del sistema.
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Vista de desarrollo.
-                td(style="background-color: #F0F8FF;") Muestra cómo se organizan los componentes del software dentro del entorno de desarrollo.
+                td(style="background-color: #F0F8FF;") Muestra cómo se organizan los componentes del #[i software] dentro del entorno de desarrollo.
                 td(style="background-color: #F0F8FF;") Facilitar la organización del código y los módulos.
               tr(data-aos="fade-right")
                 td Vista física o de despliegue.
                 td Representa cómo se distribuyen los componentes del sistema en el hardware o infraestructura.
                 td Planificar la implementación del sistema.
 
-        p.mb-4 Cada una de estas vistas permite analizar el sistema desde una perspectiva diferente, lo que facilita la toma de decisiones durante el diseño y la planificación del software.
+        p.mb-4 Cada una de estas vistas permite analizar el sistema desde una perspectiva diferente, lo que facilita la toma de decisiones durante el diseño y la planificación del #[i software].
 
         .cajon.cajon.C02.p-4.mb-4
           .row.justify-content-center
             .col.col-lg-10.col-12.order-lg-2.order-2
               h4 Relación entre las vistas del sistema
-              p Las vistas no se utilizan de forma aislada, sino que se complementan entre sí para ofrecer una comprensión integral del sistema. Mientras una vista permite analizar la estructura lógica del software, otra puede mostrar su comportamiento o su distribución en la infraestructura tecnológica.
+              p Las vistas no se utilizan de forma aislada, sino que se complementan entre sí para ofrecer una comprensión integral del sistema. Mientras una vista permite analizar la estructura lógica del #[i software], otra puede mostrar su comportamiento o su distribución en la infraestructura tecnológica.
               .cajon.cajon.C03.p-4.mb-4
                 p.mb-0 Por ejemplo, la vista lógica permite identificar las clases y relaciones del sistema mediante diagramas de clases, mientras que la vista de despliegue permite comprender cómo se distribuyen los componentes en servidores o dispositivos dentro de una infraestructura tecnológica.
               p.mb-0 Esta combinación de perspectivas permite a los equipos de desarrollo diseñar sistemas más organizados, escalables y fáciles de mantener.
@@ -282,7 +282,7 @@
               figure
                 img(src='@/assets/curso/tema3/img-14.svg', alt='Imagen decorativa')
 
-        p En síntesis, las vistas del sistema constituyen una herramienta fundamental en el modelado de software, ya que permiten representar diferentes aspectos del sistema de manera estructurada, facilitando la comunicación entre los miembros del equipo y apoyando la toma de decisiones durante el proceso de diseño.
+        p En síntesis, las vistas del sistema constituyen una herramienta fundamental en el modelado de #[i software], ya que permiten representar diferentes aspectos del sistema de manera estructurada, facilitando la comunicación entre los miembros del equipo y apoyando la toma de decisiones durante el proceso de diseño.
 
 
 </template>

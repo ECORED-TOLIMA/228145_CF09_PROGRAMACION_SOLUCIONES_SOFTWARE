@@ -243,9 +243,9 @@ export default {
         'conjunto de reglas y mecanismos que permite que diferentes aplicaciones o sistemas se comuniquen entre sí e intercambien información o funcionalidades.',
     },
     {
-      termino: 'Arquitectura de software',
+      termino: 'Arquitectura de <em>software</em>',
       significado:
-        'estructura fundamental de un sistema de software que define la organización de sus componentes, sus relaciones y los principios que guían su diseño y evolución.',
+        'estructura fundamental de un sistema de <em>software</em> que define la organización de sus componentes, sus relaciones y los principios que guían su diseño y evolución.',
     },
     {
       termino: 'Arquitectura cliente-servidor',
@@ -260,7 +260,7 @@ export default {
     {
       termino: 'DevOps',
       significado:
-        'conjunto de prácticas que integran el desarrollo de software y las operaciones de tecnología para mejorar la colaboración, automatizar procesos y acelerar la entrega de aplicaciones.',
+        'conjunto de prácticas que integran el desarrollo de <em>software</em> y las operaciones de tecnología para mejorar la colaboración, automatizar procesos y acelerar la entrega de aplicaciones.',
     },
     {
       termino: 'Diagrama de clases',
@@ -280,12 +280,12 @@ export default {
     {
       termino: 'Plataforma tecnológica',
       significado:
-        'conjunto de herramientas, lenguajes, frameworks y recursos tecnológicos utilizados para desarrollar, ejecutar y mantener aplicaciones de software.',
+        'conjunto de herramientas, lenguajes, <em>frameworks</em> y recursos tecnológicos utilizados para desarrollar, ejecutar y mantener aplicaciones de software.',
     },
     {
       termino: 'REST (Representational State Transfer)',
       significado:
-        'estilo arquitectónico utilizado para diseñar servicios web que se comunican mediante protocolos estándar de Internet, generalmente utilizando HTTP.',
+        'estilo arquitectónico utilizado para diseñar servicios <em>web</em> que se comunican mediante protocolos estándar de Internet, generalmente utilizando HTTP.',
     },
   ],
   referencias: [

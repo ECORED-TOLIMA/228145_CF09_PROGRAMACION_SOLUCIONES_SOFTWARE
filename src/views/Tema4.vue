@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Patrones de diseño de software
+      h1 Patrones de diseño de #[i software]
 
-    p.mb-4 En el desarrollo de software, es común enfrentar problemas similares durante el proceso de diseño de los sistemas. Para abordar estas situaciones de manera eficiente, se utilizan patrones de diseño, los cuales representan soluciones probadas y reutilizables para resolver problemas recurrentes dentro del diseño de software.
+    p.mb-4 En el desarrollo de #[i software], es común enfrentar problemas similares durante el proceso de diseño de los sistemas. Para abordar estas situaciones de manera eficiente, se utilizan patrones de diseño, los cuales representan soluciones probadas y reutilizables para resolver problemas recurrentes dentro del diseño de #[i software].
 
     .row.justify-content-center
       .col-lg-3.col-sm-7.col-10.mb-4(data-aos="fade-left")
@@ -16,7 +16,7 @@
       .col-lg-9(data-aos="fade-left")
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p Un patrón de diseño no corresponde a un código específico ni a una implementación exacta, sino a una estructura conceptual que orienta la forma en que se organizan los componentes del sistema para resolver un problema determinado. De esta manera, los patrones proporcionan guías que ayudan a los desarrolladores a diseñar soluciones más organizadas, flexibles y fáciles de mantener.
-        p El uso de patrones de diseño permite aprovechar el conocimiento acumulado en la ingeniería de software, ya que estos patrones han sido identificados y documentados a partir de experiencias reales en el desarrollo de sistemas. Por esta razón, constituyen una herramienta importante para mejorar la calidad del diseño y facilitar la comunicación entre los miembros del equipo de desarrollo.
+        p El uso de patrones de diseño permite aprovechar el conocimiento acumulado en la ingeniería de #[i software], ya que estos patrones han sido identificados y documentados a partir de experiencias reales en el desarrollo de sistemas. Por esta razón, constituyen una herramienta importante para mejorar la calidad del diseño y facilitar la comunicación entre los miembros del equipo de desarrollo.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
@@ -41,7 +41,7 @@
           .bottomCircle.mb-4
             figure
               img(src="@/assets/curso/tema4/img-04.svg", alt="alt").img80.m-auto
-          p Mejoran la mantenibilidad y la escalabilidad del software.
+          p Mejoran la mantenibilidad y la escalabilidad del #[i software].
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
           .bottomCircle.mb-4
@@ -58,19 +58,19 @@
             .col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/tema4/img-06.svg", alt="alt").img100.m-auto
             .col-lg-11
-              p.mb-0 En síntesis, los patrones de diseño constituyen una herramienta fundamental dentro del diseño de software, ya que proporcionan modelos de solución reutilizables que permiten estructurar sistemas de manera más eficiente, mejorar la calidad del código y apoyar el proceso de desarrollo de aplicaciones orientadas a objetos.
+              p.mb-0 En síntesis, los patrones de diseño constituyen una herramienta fundamental dentro del diseño de #[i software], ya que proporcionan modelos de solución reutilizables que permiten estructurar sistemas de manera más eficiente, mejorar la calidad del código y apoyar el proceso de desarrollo de aplicaciones orientadas a objetos.
 
     Separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1. Conceptos y clasificación de patrones de diseño
 
-    p.mb-4 Los patrones de diseño son soluciones generales y reutilizables que se aplican a problemas recurrentes en el diseño de software. No representan un algoritmo específico ni una implementación exacta, sino una forma estructurada de organizar clases y objetos para resolver situaciones comunes dentro de un sistema.
+    p.mb-4 Los patrones de diseño son soluciones generales y reutilizables que se aplican a problemas recurrentes en el diseño de #[i software]. No representan un algoritmo específico ni una implementación exacta, sino una forma estructurada de organizar clases y objetos para resolver situaciones comunes dentro de un sistema.
 
     .row.justify-content-center
       .col-lg-10
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p.mb-0 En el contexto del desarrollo orientado a objetos, los patrones ayudan a mejorar la organización del software, ya que proponen formas adecuadas de distribuir responsabilidades entre los componentes del sistema. De esta manera, permiten construir aplicaciones más flexibles, reutilizables y fáciles de mantener.
+          p.mb-0 En el contexto del desarrollo orientado a objetos, los patrones ayudan a mejorar la organización del #[i software], ya que proponen formas adecuadas de distribuir responsabilidades entre los componentes del sistema. De esta manera, permiten construir aplicaciones más flexibles, reutilizables y fáciles de mantener.
 
     p.text-center Un patrón de diseño generalmente describe varios elementos que orientan su aplicación dentro del sistema:
 
@@ -99,7 +99,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         p Estos elementos permiten comprender cuándo y cómo aplicar un patrón dentro del proceso de diseño.
-        p Los patrones de diseño suelen clasificarse según el tipo de problema que ayudan a resolver dentro de la estructura del software. Esta clasificación facilita su estudio y aplicación durante el diseño del sistema.
+        p Los patrones de diseño suelen clasificarse según el tipo de problema que ayudan a resolver dentro de la estructura del #[i software]. Esta clasificación facilita su estudio y aplicación durante el diseño del sistema.
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 6.
@@ -127,8 +127,8 @@
 
         .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#C0F6F2 !important")
           .bloque-texto-gg__texto.p-4
-            p Esta clasificación permite comprender que los patrones no se aplican todos para el mismo propósito, sino que cada grupo responde a necesidades diferentes dentro del diseño de software.
-            p.mb-0 En síntesis, comprender el concepto y la clasificación de los patrones de diseño permite seleccionar soluciones adecuadas para organizar el sistema de manera eficiente, mejorar la reutilización del código y facilitar la evolución del software a lo largo del tiempo.
+            p Esta clasificación permite comprender que los patrones no se aplican todos para el mismo propósito, sino que cada grupo responde a necesidades diferentes dentro del diseño de #[i software].
+            p.mb-0 En síntesis, comprender el concepto y la clasificación de los patrones de diseño permite seleccionar soluciones adecuadas para organizar el sistema de manera eficiente, mejorar la reutilización del código y facilitar la evolución del #[i software] a lo largo del tiempo.
           .bloque-texto-gg__img(
             :style="{'background-image':`url(${require('@/assets/curso/tema4/img-11.png')})`}"
           )
@@ -138,7 +138,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2. Patrones creacionales, estructurales y comportamentales
 
-    p Los patrones de diseño pueden agruparse en tres grandes categorías según el tipo de problema que buscan resolver dentro del sistema. Estas categorías permiten comprender cómo se organiza el software, cómo se crean los objetos y cómo interactúan entre sí los diferentes componentes de una aplicación.
+    p Los patrones de diseño pueden agruparse en tres grandes categorías según el tipo de problema que buscan resolver dentro del sistema. Estas categorías permiten comprender cómo se organiza el #[i software], cómo se crean los objetos y cómo interactúan entre sí los diferentes componentes de una aplicación.
     p.mb-4 Cada grupo de patrones aborda un aspecto específico del diseño orientado a objetos, lo que facilita la construcción de sistemas más estructurados, flexibles y mantenibles.
 
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C03" data-aos="zoom-in")
@@ -257,7 +257,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema4/img-12.png', alt='')
 
-        p En síntesis, los patrones creacionales, estructurales y comportamentales ofrecen soluciones organizadas para diferentes aspectos del diseño de software. Su aplicación permite desarrollar sistemas más flexibles, reutilizables y fáciles de mantener dentro de los procesos de desarrollo orientados a objetos.
+        p En síntesis, los patrones creacionales, estructurales y comportamentales ofrecen soluciones organizadas para diferentes aspectos del diseño de #[i software]. Su aplicación permite desarrollar sistemas más flexibles, reutilizables y fáciles de mantener dentro de los procesos de desarrollo orientados a objetos.
 
 </template>
 

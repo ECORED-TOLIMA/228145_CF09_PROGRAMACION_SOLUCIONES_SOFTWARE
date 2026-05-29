@@ -5,20 +5,20 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Arquitectura de software
+      h1 Arquitectura de #[i software]
 
-    p.mb-4 La arquitectura de software constituye la estructura fundamental que define cómo se organizan los componentes de un sistema, cómo interactúan entre sí y cuáles son los principios que guían su construcción y evolución. En esta etapa del diseño se establecen las decisiones estructurales que permiten garantizar que el sistema cumpla con los requerimientos funcionales y no funcionales definidos durante el análisis.
+    p.mb-4 La arquitectura de #[i software] constituye la estructura fundamental que define cómo se organizan los componentes de un sistema, cómo interactúan entre sí y cuáles son los principios que guían su construcción y evolución. En esta etapa del diseño se establecen las decisiones estructurales que permiten garantizar que el sistema cumpla con los requerimientos funcionales y no funcionales definidos durante el análisis.
 
     .row.no-gutters.align-items-center.style___box_2.m-0.mb-4(data-aos="zoom-in")
       .col-xl.px-0
         p Desde una perspectiva conceptual, la arquitectura describe la organización global del sistema, incluyendo sus módulos principales, las relaciones entre ellos, los mecanismos de comunicación y las tecnologías que soportan su funcionamiento. Estas decisiones permiten establecer una base sólida que orienta el desarrollo, facilita la comprensión del sistema y reduce riesgos asociados a cambios futuros.
-        p.mb-0 El concepto de arquitectura de software comenzó a consolidarse como disciplina dentro de la ingeniería de software durante la década de 1990, cuando se reconoció la necesidad de estructurar los sistemas complejos mediante modelos y principios arquitectónicos. Autores como Mary Shaw y David Garlan contribuyeron significativamente al desarrollo del concepto moderno de arquitectura, destacando la importancia de describir los sistemas a través de componentes, conectores y configuraciones estructurales.
+        p.mb-0 El concepto de arquitectura de #[i software] comenzó a consolidarse como disciplina dentro de la ingeniería de #[i software] durante la década de 1990, cuando se reconoció la necesidad de estructurar los sistemas complejos mediante modelos y principios arquitectónicos. Autores como Mary Shaw y David Garlan contribuyeron significativamente al desarrollo del concepto moderno de arquitectura, destacando la importancia de describir los sistemas a través de componentes, conectores y configuraciones estructurales.
       .col-xl-auto.px-0.col-img-box
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/tema5/img-01.png', alt='').m-auto
 
-    p De acuerdo con lo planteado en el libro Software Architecture: Perspectives on an Emerging Discipline, la arquitectura permite comprender el sistema desde una visión de alto nivel que facilita la toma de decisiones técnicas, la comunicación entre los miembros del equipo y la planificación del crecimiento del sistema.
-    p.mb-4 En el proceso de desarrollo de software, definir la arquitectura implica analizar diversos aspectos del sistema, entre los que se destacan:
+    p De acuerdo con lo planteado en el libro #[i software] Architecture: Perspectives on an Emerging Discipline, la arquitectura permite comprender el sistema desde una visión de alto nivel que facilita la toma de decisiones técnicas, la comunicación entre los miembros del equipo y la planificación del crecimiento del sistema.
+    p.mb-4 En el proceso de desarrollo de #[i software], definir la arquitectura implica analizar diversos aspectos del sistema, entre los que se destacan:
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -44,25 +44,25 @@
                   i.fas.fa-computer(style="color: #FFC928 !important")
                   | Las cualidades de calidad que se desean garantizar, como escalabilidad, seguridad o mantenibilidad.
 
-        p Una arquitectura bien definida permite reducir la complejidad del sistema y proporciona una guía clara para el desarrollo del software. Además, facilita la evolución del sistema a lo largo del tiempo, ya que establece principios estructurales que permiten incorporar nuevas funcionalidades sin afectar significativamente los componentes existentes.
+        p Una arquitectura bien definida permite reducir la complejidad del sistema y proporciona una guía clara para el desarrollo del #[i software]. Además, facilita la evolución del sistema a lo largo del tiempo, ya que establece principios estructurales que permiten incorporar nuevas funcionalidades sin afectar significativamente los componentes existentes.
 
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p En síntesis, la arquitectura de software representa el marco estructural que orienta el diseño y la construcción de sistemas informáticos, permitiendo organizar sus componentes, definir sus interacciones y garantizar que el sistema cumpla con los objetivos técnicos y funcionales del proyecto.
+          p En síntesis, la arquitectura de #[i software] representa el marco estructural que orienta el diseño y la construcción de sistemas informáticos, permitiendo organizar sus componentes, definir sus interacciones y garantizar que el sistema cumpla con los objetivos técnicos y funcionales del proyecto.
 
     Separador
 
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1. Conceptos
 
-    p.mb-4 La arquitectura de software corresponde a la organización estructural de un sistema, donde se definen los componentes que lo conforman, las relaciones entre ellos y los principios que orientan su diseño y evolución. Esta arquitectura actúa como un plano que guía el desarrollo del sistema, permitiendo comprender cómo se distribuyen sus funcionalidades y cómo interactúan los diferentes elementos que lo integran.
+    p.mb-4 La arquitectura de #[i software] corresponde a la organización estructural de un sistema, donde se definen los componentes que lo conforman, las relaciones entre ellos y los principios que orientan su diseño y evolución. Esta arquitectura actúa como un plano que guía el desarrollo del sistema, permitiendo comprender cómo se distribuyen sus funcionalidades y cómo interactúan los diferentes elementos que lo integran.
 
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema5/img-03.png', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
-        p Desde una perspectiva conceptual, la arquitectura permite establecer una visión global del sistema antes de su implementación. Esto facilita tomar decisiones relacionadas con la organización de los componentes, la distribución de responsabilidades, la comunicación entre módulos y la selección de tecnologías que soportarán el funcionamiento del software.
-        p Según Len Bass, la arquitectura de software describe las estructuras de un sistema, los elementos que las componen, las propiedades visibles de dichos elementos y las relaciones que existen entre ellos. Esta definición resalta que la arquitectura no solo describe componentes, sino también la forma en que estos colaboran para cumplir los objetivos del sistema.
+        p Desde una perspectiva conceptual, la arquitectura permite establecer una visión global del sistema antes de su implementación. Esto facilita tomar decisiones relacionadas con la organización de los componentes, la distribución de responsabilidades, la comunicación entre módulos y la selección de tecnologías que soportarán el funcionamiento del #[i software].
+        p Según Len Bass, la arquitectura de #[i software] describe las estructuras de un sistema, los elementos que las componen, las propiedades visibles de dichos elementos y las relaciones que existen entre ellos. Esta definición resalta que la arquitectura no solo describe componentes, sino también la forma en que estos colaboran para cumplir los objetivos del sistema.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
@@ -93,7 +93,7 @@
           .bottomCircle.mb-4
             figure
               img(src="@/assets/curso/tema5/img-07.svg", alt="alt").img80.m-auto
-          p Sirve como base para la documentación y mantenimiento del software.
+          p Sirve como base para la documentación y mantenimiento del #[i software].
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -101,7 +101,7 @@
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 10.
-          span Elementos conceptuales de la arquitectura de software
+          span Elementos conceptuales de la arquitectura de #[i software]
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -122,10 +122,10 @@
                 td Restricciones. 
                 td Reglas o decisiones que condicionan la estructura del sistema.
 
-        p En síntesis, los conceptos de arquitectura de software permiten comprender cómo se organiza un sistema a nivel estructural, proporcionando una base conceptual que orienta el diseño, la implementación y la evolución de las aplicaciones informáticas.
+        p En síntesis, los conceptos de arquitectura de #[i software] permiten comprender cómo se organiza un sistema a nivel estructural, proporcionando una base conceptual que orienta el diseño, la implementación y la evolución de las aplicaciones informáticas.
 
         .cajon.cajon.C04.p-3.mb-4
-          p.mb-0.text-white.text-center Para complementar la información sobre la arquitectura de software, se recomienda acceder al siguiente video.
+          p.mb-0.text-white.text-center Para complementar la información sobre la arquitectura de #[i software], se recomienda acceder al siguiente video.
 
         figure.mb-4(data-aos="zoom-in")
           .video
@@ -137,7 +137,7 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2. Tipos de arquitecturas y cualidades sistémicas
 
-    p.mb-4 En el diseño de software, la arquitectura puede organizarse de diferentes maneras según las necesidades del sistema, el tipo de aplicación y el entorno en el que se implementará. Estas organizaciones estructurales se conocen como tipos de arquitectura, y cada una define una forma particular de distribuir los componentes, las responsabilidades y la comunicación dentro del sistema.
+    p.mb-4 En el diseño de #[i software], la arquitectura puede organizarse de diferentes maneras según las necesidades del sistema, el tipo de aplicación y el entorno en el que se implementará. Estas organizaciones estructurales se conocen como tipos de arquitectura, y cada una define una forma particular de distribuir los componentes, las responsabilidades y la comunicación dentro del sistema.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -146,13 +146,13 @@
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema5/img-08.svg", alt="alt").img100.m-auto
             .col-lg-10
-              p.mb-0 La elección de una arquitectura adecuada influye directamente en el rendimiento, la escalabilidad y la facilidad de mantenimiento del software. Por esta razón, durante el proceso de diseño es necesario evaluar las características del proyecto antes de seleccionar una arquitectura específica.
+              p.mb-0 La elección de una arquitectura adecuada influye directamente en el rendimiento, la escalabilidad y la facilidad de mantenimiento del #[i software]. Por esta razón, durante el proceso de diseño es necesario evaluar las características del proyecto antes de seleccionar una arquitectura específica.
 
-        p A continuación, se presentan algunos tipos de arquitecturas utilizados con frecuencia en el desarrollo de software.
+        p A continuación, se presentan algunos tipos de arquitecturas utilizados con frecuencia en el desarrollo de #[i software].
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 11.
-          span Tipos de arquitecturas de software
+          span Tipos de arquitecturas de #[i software]
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -187,8 +187,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img-09.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Además de los tipos de arquitectura, en el diseño de software también se consideran las cualidades sistémicas, conocidas también como atributos de calidad. Estas cualidades permiten evaluar qué tan adecuado es el diseño de un sistema frente a diferentes condiciones de uso.
-        p Las cualidades sistémicas representan propiedades que influyen en el comportamiento, la eficiencia y la capacidad de evolución del software.
+        p Además de los tipos de arquitectura, en el diseño de #[i software] también se consideran las cualidades sistémicas, conocidas también como atributos de calidad. Estas cualidades permiten evaluar qué tan adecuado es el diseño de un sistema frente a diferentes condiciones de uso.
+        p Las cualidades sistémicas representan propiedades que influyen en el comportamiento, la eficiencia y la capacidad de evolución del #[i software].
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -242,7 +242,7 @@
       .col-lg-7.order-lg-1.order-2
         .row.justify-content-center
           .col
-            p Este modelo permite distribuir las responsabilidades dentro del sistema, lo que facilita la organización del software y mejora la eficiencia en la gestión de recursos.
+            p Este modelo permite distribuir las responsabilidades dentro del sistema, lo que facilita la organización del #[i software] y mejora la eficiencia en la gestión de recursos.
             p En muchos sistemas actuales, el cliente suele ser una aplicación instalada en un dispositivo o un navegador web, mientras que el servidor se ejecuta en una infraestructura centralizada donde se almacenan los datos y la lógica principal del sistema.
       .col-lg-3.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
         figure
@@ -378,7 +378,7 @@
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.4. Modelo Vista Controlador (MVC)
 
-    p El Modelo Vista Controlador (MVC) es un patrón de arquitectura de software que organiza una aplicación en tres componentes principales con el fin de separar la lógica del sistema, la presentación de la información y la gestión de las interacciones del usuario. Esta separación facilita el mantenimiento del sistema, mejora la organización del código y permite desarrollar aplicaciones más escalables.
+    p El Modelo Vista Controlador (MVC) es un patrón de arquitectura de #[i software] que organiza una aplicación en tres componentes principales con el fin de separar la lógica del sistema, la presentación de la información y la gestión de las interacciones del usuario. Esta separación facilita el mantenimiento del sistema, mejora la organización del código y permite desarrollar aplicaciones más escalables.
     p.mb-4 El modelo divide la aplicación en las siguientes partes:
 
     .row.justify-content-center

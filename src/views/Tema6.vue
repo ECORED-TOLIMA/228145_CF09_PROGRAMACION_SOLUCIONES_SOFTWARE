@@ -7,7 +7,7 @@
         span 6
       h1 Arquitecturas modernas y prácticas de desarrollo
 
-    p.mb-4 El desarrollo de software ha evolucionado significativamente debido al crecimiento de Internet, las aplicaciones distribuidas y la necesidad de construir sistemas cada vez más escalables, flexibles y fáciles de mantener. En este contexto, han surgido nuevas arquitecturas y prácticas de desarrollo que permiten diseñar soluciones tecnológicas más eficientes y adaptadas a entornos dinámicos. 
+    p.mb-4 El desarrollo de #[i software] ha evolucionado significativamente debido al crecimiento de Internet, las aplicaciones distribuidas y la necesidad de construir sistemas cada vez más escalables, flexibles y fáciles de mantener. En este contexto, han surgido nuevas arquitecturas y prácticas de desarrollo que permiten diseñar soluciones tecnológicas más eficientes y adaptadas a entornos dinámicos. 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
@@ -28,11 +28,11 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.1. Arquitectura orientada a servicios
 
-    p.mb-4 La arquitectura orientada a servicios (SOA, Service-Oriented Architecture) es un enfoque de diseño de software que organiza las funcionalidades de un sistema en servicios independientes que pueden comunicarse entre sí a través de una red.
+    p.mb-4 La arquitectura orientada a servicios (SOA, Service-Oriented Architecture) es un enfoque de diseño de #[i software] que organiza las funcionalidades de un sistema en servicios independientes que pueden comunicarse entre sí a través de una red.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#C9E8F7 !important")
       .bloque-texto-gg__texto.p-4
-        p En este tipo de arquitectura, cada servicio representa una funcionalidad específica del sistema, como la gestión de usuarios, el procesamiento de pagos o el manejo de inventarios. Estos servicios pueden ser reutilizados por diferentes aplicaciones, lo que facilita la integración entre sistemas y mejora la flexibilidad del software.
+        p En este tipo de arquitectura, cada servicio representa una funcionalidad específica del sistema, como la gestión de usuarios, el procesamiento de pagos o el manejo de inventarios. Estos servicios pueden ser reutilizados por diferentes aplicaciones, lo que facilita la integración entre sistemas y mejora la flexibilidad del #[i software].
         p.mb-0 La arquitectura orientada a servicios surge como una solución para integrar sistemas empresariales complejos, ya que permite que diferentes aplicaciones, incluso desarrolladas con tecnologías distintas, se comuniquen entre sí mediante interfaces estandarizadas.
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema6/img-02.png')})`}"
@@ -201,7 +201,7 @@
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.3. Arquitectura de microservicios
 
-    p.mb-4 La arquitectura de microservicios es un enfoque de diseño de software en el que una aplicación se construye como un conjunto de servicios pequeños, independientes y especializados, donde cada uno cumple una función específica dentro del sistema.
+    p.mb-4 La arquitectura de microservicios es un enfoque de diseño de #[i software] en el que una aplicación se construye como un conjunto de servicios pequeños, independientes y especializados, donde cada uno cumple una función específica dentro del sistema.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -282,14 +282,14 @@
           p Cada uno de estos servicios puede ejecutarse de forma independiente y comunicarse con los demás mediante APIs.
           p.mb-0 Gracias a esta organización, si el sistema necesita procesar un mayor número de pagos, únicamente se puede escalar el servicio de pagos sin afectar el resto de los componentes.
 
-        p En síntesis, la arquitectura de microservicios permite construir sistemas más modulares, escalables y adaptables, facilitando el mantenimiento, la evolución del software y el trabajo colaborativo en equipos de desarrollo.
+        p En síntesis, la arquitectura de microservicios permite construir sistemas más modulares, escalables y adaptables, facilitando el mantenimiento, la evolución del #[i software] y el trabajo colaborativo en equipos de desarrollo.
 
     Separador
 
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.4. Arquitectura serverless
 
-    p.mb-4 La arquitectura serverless es un modelo de desarrollo en el que las aplicaciones se ejecutan sin que los desarrolladores tengan que administrar directamente los servidores o la infraestructura donde se ejecuta el software. Aunque los servidores siguen existiendo, su gestión es responsabilidad del proveedor de servicios en la nube.
+    p.mb-4 La arquitectura serverless es un modelo de desarrollo en el que las aplicaciones se ejecutan sin que los desarrolladores tengan que administrar directamente los servidores o la infraestructura donde se ejecuta el #[i software]. Aunque los servidores siguen existiendo, su gestión es responsabilidad del proveedor de servicios en la nube.
 
     .row.justify-content-center.mb-4
       .col-lg-5.order-lg-1.order-2
@@ -385,11 +385,11 @@
     #t_6_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.5. DevOps e integración continua
 
-    p.mb-4 En el desarrollo moderno de software, los equipos buscan entregar aplicaciones de manera más rápida, confiable y continua. Para lograrlo, surge el enfoque DevOps, una práctica que integra el trabajo de los equipos de desarrollo (development) y operaciones (operations), promoviendo la colaboración, la automatización y la mejora continua en el ciclo de vida del software.
+    p.mb-4 En el desarrollo moderno de #[i software], los equipos buscan entregar aplicaciones de manera más rápida, confiable y continua. Para lograrlo, surge el enfoque DevOps, una práctica que integra el trabajo de los equipos de desarrollo (development) y operaciones (operations), promoviendo la colaboración, la automatización y la mejora continua en el ciclo de vida del #[i software].
 
     .row.no-gutters.align-items-center.style___box_3.m-0.mb-4(data-aos="zoom-in")
       .col-xl.px-0
-        p Tradicionalmente, el desarrollo y la operación de sistemas funcionaban como áreas separadas. Los desarrolladores creaban el software y posteriormente lo entregaban al equipo de operaciones para su implementación y mantenimiento. Este proceso generaba retrasos, dificultades en la comunicación y problemas al momento de desplegar nuevas versiones.
+        p Tradicionalmente, el desarrollo y la operación de sistemas funcionaban como áreas separadas. Los desarrolladores creaban el #[i software] y posteriormente lo entregaban al equipo de operaciones para su implementación y mantenimiento. Este proceso generaba retrasos, dificultades en la comunicación y problemas al momento de desplegar nuevas versiones.
         p.mb-0 DevOps propone un enfoque colaborativo donde ambos equipos trabajan de forma coordinada durante todo el proceso de desarrollo, desde la programación hasta la implementación y monitoreo del sistema.
       .col-xl-auto.px-0.col-img-box
         figure.d-none.d-xl-block
@@ -398,7 +398,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         p Una de las prácticas más importantes dentro de DevOps es la integración continua.
-        p La integración continua consiste en integrar de manera frecuente los cambios realizados en el código dentro de un repositorio central. Cada vez que se realiza una modificación, el sistema ejecuta automáticamente procesos de compilación, pruebas y verificación para asegurar que el software funcione correctamente.
+        p La integración continua consiste en integrar de manera frecuente los cambios realizados en el código dentro de un repositorio central. Cada vez que se realiza una modificación, el sistema ejecuta automáticamente procesos de compilación, pruebas y verificación para asegurar que el #[i software] funcione correctamente.
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 18.
           span  Principales prácticas de DevOps
@@ -416,7 +416,7 @@
                 td(style="background-color: #F0F8FF;") Permite detectar errores rápidamente.
               tr(data-aos="fade-right")
                 td Entrega continua.
-                td El software puede prepararse automáticamente para su publicación.
+                td El #[i software] puede prepararse automáticamente para su publicación.
                 td Reduce el tiempo de despliegue.
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Automatización.
@@ -429,7 +429,7 @@
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Colaboración entre equipos.
                 td(style="background-color: #F0F8FF;") Desarrollo y operaciones trabajan de manera integrada.
-                td(style="background-color: #F0F8FF;") Mejora la comunicación y la calidad del software.
+                td(style="background-color: #F0F8FF;") Mejora la comunicación y la calidad del #[i software].
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
@@ -474,9 +474,9 @@
                       span e
                     | Si las pruebas son exitosas, la nueva versión puede prepararse para su despliegue.
           
-          p.mb-0 Este proceso permite detectar errores de forma temprana y mantener el software actualizado de manera constante.
+          p.mb-0 Este proceso permite detectar errores de forma temprana y mantener el #[i software] actualizado de manera constante.
 
-        p En síntesis, DevOps y la integración continua permiten mejorar la calidad del software, reducir los tiempos de desarrollo y facilitar la entrega continua de nuevas funcionalidades, contribuyendo a la creación de sistemas más confiables y eficientes.
+        p En síntesis, DevOps y la integración continua permiten mejorar la calidad del #[i software], reducir los tiempos de desarrollo y facilitar la entrega continua de nuevas funcionalidades, contribuyendo a la creación de sistemas más confiables y eficientes.
 
 
 </template>

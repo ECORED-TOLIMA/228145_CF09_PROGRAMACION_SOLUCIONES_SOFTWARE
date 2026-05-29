@@ -7,12 +7,12 @@
         span 7
       h1 Plataformas tecnológicas y documentación del diseño
 
-    p.mb-4 En el desarrollo de software, la selección de las plataformas tecnológicas y la elaboración de la documentación de diseño constituyen actividades fundamentales para garantizar la calidad, organización y sostenibilidad de los sistemas. Las plataformas tecnológicas proporcionan las herramientas, lenguajes, frameworks y entornos necesarios para construir y ejecutar las aplicaciones, mientras que la documentación permite registrar las decisiones técnicas tomadas durante el proceso de diseño.
+    p.mb-4 En el desarrollo de #[i software], la selección de las plataformas tecnológicas y la elaboración de la documentación de diseño constituyen actividades fundamentales para garantizar la calidad, organización y sostenibilidad de los sistemas. Las plataformas tecnológicas proporcionan las herramientas, lenguajes, frameworks y entornos necesarios para construir y ejecutar las aplicaciones, mientras que la documentación permite registrar las decisiones técnicas tomadas durante el proceso de diseño.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario(data-aos="flip-up")(style="background-color:#68EAE0 !important")
       .bloque-texto-gg__texto.p-4
         p La adecuada elección de tecnologías influye directamente en aspectos como el rendimiento, la escalabilidad, la seguridad y la facilidad de mantenimiento del sistema. Por esta razón, los equipos de desarrollo deben analizar diferentes alternativas tecnológicas antes de iniciar la implementación.
-        p Por otra parte, la documentación del diseño cumple un papel esencial dentro del ciclo de vida del software, ya que permite comunicar la estructura del sistema, las decisiones arquitectónicas y la organización de los componentes a todos los integrantes del equipo de desarrollo.
+        p Por otra parte, la documentación del diseño cumple un papel esencial dentro del ciclo de vida del #[i software], ya que permite comunicar la estructura del sistema, las decisiones arquitectónicas y la organización de los componentes a todos los integrantes del equipo de desarrollo.
         p.mb-0 En conjunto, las plataformas tecnológicas y la documentación del diseño permiten estructurar el desarrollo del sistema de manera organizada, facilitando la colaboración entre los miembros del equipo y garantizando que las decisiones técnicas queden registradas para futuras etapas del proyecto.
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema7/img-01.png')})`}"
@@ -21,15 +21,15 @@
     Separador
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.1. Plataformas tecnológicas para el desarrollo de software
+      h2 7.1. Plataformas tecnológicas para el desarrollo de #[i software]
 
-    p.mb-4 Las plataformas tecnológicas para el desarrollo de software corresponden al conjunto de herramientas, lenguajes, frameworks y entornos que permiten diseñar, construir, ejecutar y mantener aplicaciones informáticas. Estas plataformas proporcionan la infraestructura necesaria para que los desarrolladores puedan implementar las funcionalidades del sistema y gestionar los diferentes componentes que lo conforman.
+    p.mb-4 Las plataformas tecnológicas para el desarrollo de #[i software] corresponden al conjunto de herramientas, lenguajes, frameworks y entornos que permiten diseñar, construir, ejecutar y mantener aplicaciones informáticas. Estas plataformas proporcionan la infraestructura necesaria para que los desarrolladores puedan implementar las funcionalidades del sistema y gestionar los diferentes componentes que lo conforman.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p La elección de una plataforma tecnológica depende de diversos factores, entre ellos el tipo de aplicación que se desea desarrollar, los requerimientos del sistema, el entorno de ejecución y las necesidades de escalabilidad o mantenimiento. Una selección adecuada de tecnologías contribuye a mejorar el rendimiento del sistema, facilitar su evolución y garantizar la compatibilidad con otros sistemas.
-        p En el desarrollo de software, las plataformas tecnológicas suelen integrarse en un ecosistema que incluye herramientas de programación, entornos de desarrollo, motores de bases de datos y sistemas de gestión de versiones.
+        p En el desarrollo de #[i software], las plataformas tecnológicas suelen integrarse en un ecosistema que incluye herramientas de programación, entornos de desarrollo, motores de bases de datos y sistemas de gestión de versiones.
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 19.
@@ -75,7 +75,7 @@
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 7.2. Motores de bases de datos relacionales y no relacionales
 
-    p.mb-4 Los motores de bases de datos son sistemas encargados de almacenar, gestionar y recuperar la información utilizada por las aplicaciones de software. Estos motores permiten organizar grandes volúmenes de datos de manera estructurada y facilitan su consulta, actualización y mantenimiento.
+    p.mb-4 Los motores de bases de datos son sistemas encargados de almacenar, gestionar y recuperar la información utilizada por las aplicaciones de #[i software]. Estos motores permiten organizar grandes volúmenes de datos de manera estructurada y facilitan su consulta, actualización y mantenimiento.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -84,7 +84,7 @@
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema7/img-03.svg", alt="alt").img100.m-auto
             .col-lg-10
-              p En el desarrollo de software, la selección del motor de base de datos depende de diversos factores, como el tipo de aplicación, la cantidad de información que se debe manejar, el nivel de concurrencia de usuarios y los requerimientos de escalabilidad del sistema.
+              p En el desarrollo de #[i software], la selección del motor de base de datos depende de diversos factores, como el tipo de aplicación, la cantidad de información que se debe manejar, el nivel de concurrencia de usuarios y los requerimientos de escalabilidad del sistema.
               p De manera general, los motores de bases de datos pueden clasificarse en dos grandes categorías: 
               .cajon.cajon.C03.p-2.mb-4
                 p.mb-0.text-center Relacionales y no relacionales.
@@ -117,7 +117,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema7/img-04.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Por otra parte, las bases de datos no relacionales, también conocidas como NoSQL, han surgido como una alternativa para aplicaciones modernas que manejan grandes volúmenes de información, como plataformas web, redes sociales o sistemas de análisis de datos.
+        p Por otra parte, las bases de datos no relacionales, también conocidas como NoSQL, han surgido como una alternativa para aplicaciones modernas que manejan grandes volúmenes de información, como plataformas #[i web], redes sociales o sistemas de análisis de datos.
         p.mb-0 En síntesis, la elección entre un motor de base de datos relacional o no relacional depende de las necesidades específicas del sistema. Mientras los motores relacionales ofrecen una estructura organizada y consistente para la gestión de datos, los motores no relacionales brindan mayor flexibilidad y escalabilidad para aplicaciones distribuidas o con altos volúmenes de información.
 
     .row.justify-content-center.align-items-center
@@ -133,9 +133,9 @@
     Separador
 
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.3. Documento de diseño de software
+      h2 7.3. Documento de diseño de #[i software]
 
-    p.mb-4 El documento de diseño de software es un artefacto técnico que describe la estructura, organización y funcionamiento del sistema que se desea desarrollar. Este documento permite registrar de manera formal las decisiones de diseño tomadas durante el proceso de desarrollo y sirve como guía para los equipos encargados de implementar la solución.
+    p.mb-4 El documento de diseño de #[i software] es un artefacto técnico que describe la estructura, organización y funcionamiento del sistema que se desea desarrollar. Este documento permite registrar de manera formal las decisiones de diseño tomadas durante el proceso de desarrollo y sirve como guía para los equipos encargados de implementar la solución.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -144,14 +144,14 @@
             .col-lg-3.d-none.d-lg-block
               img(src="@/assets/curso/tema7/img-05.svg", alt="alt").img100.m-auto
             .col-lg-9
-              p En el proceso de ingeniería de software, el documento de diseño cumple un papel fundamental, ya que traduce los requerimientos del sistema en una propuesta estructurada que describe cómo se construirá la aplicación. De esta manera, facilita la comunicación entre analistas, arquitectos de software, desarrolladores y demás actores involucrados en el proyecto.
-              p.mb-0 Además, este documento permite mantener una referencia clara sobre la arquitectura del sistema, los componentes que lo conforman, las tecnologías seleccionadas y las relaciones entre los distintos módulos del software.
+              p En el proceso de ingeniería de #[i software], el documento de diseño cumple un papel fundamental, ya que traduce los requerimientos del sistema en una propuesta estructurada que describe cómo se construirá la aplicación. De esta manera, facilita la comunicación entre analistas, arquitectos de #[i software], desarrolladores y demás actores involucrados en el proyecto.
+              p.mb-0 Además, este documento permite mantener una referencia clara sobre la arquitectura del sistema, los componentes que lo conforman, las tecnologías seleccionadas y las relaciones entre los distintos módulos del #[i software].
 
-        p Un documento de diseño de software suele incluir diferentes secciones que describen aspectos técnicos y estructurales del sistema.
+        p Un documento de diseño de #[i software] suele incluir diferentes secciones que describen aspectos técnicos y estructurales del sistema.
         
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 21.
-          span  Componentes de un documento de diseño de software
+          span  Componentes de un documento de diseño de #[i software]
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -166,7 +166,7 @@
                 td(style="background-color: #F0F8FF;") Contextualizar el sistema dentro del proyecto.
               tr(data-aos="fade-right")
                 td Arquitectura del sistema.
-                td Describe la estructura general del software y el modelo arquitectónico utilizado.
+                td Describe la estructura general del #[i software] y el modelo arquitectónico utilizado.
                 td Definir la organización del sistema.
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Componentes del sistema.
@@ -185,7 +185,7 @@
                 td Indica los lenguajes, frameworks y herramientas empleadas.
                 td Documentar la infraestructura tecnológica del proyecto.
 
-        p La elaboración de este documento permite planificar de manera organizada el desarrollo del software, reducir riesgos durante la implementación y facilitar el mantenimiento del sistema en el futuro.
+        p La elaboración de este documento permite planificar de manera organizada el desarrollo del #[i software], reducir riesgos durante la implementación y facilitar el mantenimiento del sistema en el futuro.
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p Asimismo, el documento de diseño sirve como base para la documentación técnica del proyecto, permitiendo que nuevos miembros del equipo comprendan rápidamente la estructura y funcionamiento del sistema.
 
@@ -194,14 +194,14 @@
         figure
           img(src='@/assets/curso/tema7/img-06.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") En síntesis, el documento de diseño de software constituye una herramienta esencial dentro del proceso de desarrollo, ya que permite documentar la arquitectura, los componentes y las decisiones técnicas del sistema, garantizando una construcción más organizada, comprensible y sostenible del software.
+        p.mb-0(data-aos="fade-down") En síntesis, el documento de diseño de #[i software] constituye una herramienta esencial dentro del proceso de desarrollo, ya que permite documentar la arquitectura, los componentes y las decisiones técnicas del sistema, garantizando una construcción más organizada, comprensible y sostenible del #[i software].
 
     Separador
 
     #t_7_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 7.4. Arquitectura candidata
 
-    p.mb-4 La arquitectura candidata corresponde a la propuesta inicial de arquitectura de software que se plantea para satisfacer los requerimientos funcionales y no funcionales de un sistema. Esta arquitectura se construye a partir del análisis de los requerimientos, las restricciones tecnológicas, las necesidades del negocio y las características del entorno donde será implementado el sistema.
+    p.mb-4 La arquitectura candidata corresponde a la propuesta inicial de arquitectura de #[i software] que se plantea para satisfacer los requerimientos funcionales y no funcionales de un sistema. Esta arquitectura se construye a partir del análisis de los requerimientos, las restricciones tecnológicas, las necesidades del negocio y las características del entorno donde será implementado el sistema.
 
     .row.justify-content-center.mb-4
       .col-lg-5.order-lg-1.order-2
@@ -225,7 +225,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-08.svg' alt='AvatarTop')
           h4.text-center Requerimientos del sistema
-          p.mb-0 Corresponden a las necesidades funcionales y no funcionales que el software debe cumplir. Estos requerimientos orientan las decisiones de diseño y garantizan que la arquitectura responda a los objetivos del sistema.
+          p.mb-0 Corresponden a las necesidades funcionales y no funcionales que el #[i software] debe cumplir. Estos requerimientos orientan las decisiones de diseño y garantizan que la arquitectura responda a los objetivos del sistema.
 
         .tarjeta.tarjeta--BGC01.p-4
           .row.justify-content-center.mb-4
@@ -239,7 +239,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-10.svg' alt='AvatarTop')
           h4.text-center Componentes del sistema
-          p.mb-0 Se refiere a los módulos, servicios o capas que conforman el software. Identificar estos componentes permite estructurar la lógica del sistema y facilitar su desarrollo.
+          p.mb-0 Se refiere a los módulos, servicios o capas que conforman el #[i software]. Identificar estos componentes permite estructurar la lógica del sistema y facilitar su desarrollo.
 
         .tarjeta.tarjeta--BGC01.p-4
           .row.justify-content-center.mb-4
@@ -253,7 +253,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-12.svg' alt='AvatarTop')
           h4.text-center Interacción entre componentes
-          p.mb-0 Describe la forma en que los diferentes módulos del sistema se comunican entre sí, permitiendo el intercambio de información y el funcionamiento integrado del software.
+          p.mb-0 Describe la forma en que los diferentes módulos del sistema se comunican entre sí, permitiendo el intercambio de información y el funcionamiento integrado del #[i software].
 
     p La definición de una arquitectura candidata permite evaluar distintas alternativas de diseño antes de iniciar la implementación del sistema. Esto ayuda a seleccionar la arquitectura más adecuada de acuerdo con criterios como escalabilidad, rendimiento, seguridad y facilidad de mantenimiento.
     p.mb-4 Asimismo, la arquitectura candidata facilita la comunicación entre los miembros del equipo de desarrollo, ya que proporciona una representación clara de cómo se organizará el sistema y cómo se integrarán sus diferentes componentes.
@@ -266,7 +266,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.cajon.C02.p-4.mb-4
-          p Supóngase que una empresa desea desarrollar una aplicación web para gestionar reservas de hoteles. Antes de iniciar la programación, el equipo de desarrollo propone una arquitectura candidata que permita organizar el sistema.
+          p Supóngase que una empresa desea desarrollar una aplicación #[i web] para gestionar reservas de hoteles. Antes de iniciar la programación, el equipo de desarrollo propone una arquitectura candidata que permita organizar el sistema.
           p En esta propuesta inicial se definen los siguientes elementos:
 
           .cajon.cajon.C03.p-4.mb-4              
@@ -274,7 +274,7 @@
               ul.lista-ul.mb-0
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Interfaz de usuario: se desarrollará una aplicación web a la que los usuarios accederán desde su navegador para buscar hoteles, consultar disponibilidad y realizar reservas.
+                  | Interfaz de usuario: se desarrollará una aplicación #[i web] a la que los usuarios accederán desde su navegador para buscar hoteles, consultar disponibilidad y realizar reservas.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
                   | Servidor de aplicación: el servidor procesará las solicitudes enviadas por los usuarios, gestionará la lógica del sistema y controlará las operaciones relacionadas con las reservas.
@@ -291,13 +291,13 @@
               .row.justify-content-center.mb-3
                 .col-5
                   img(src='@/assets/curso/tema7/img-13.svg' alt="Imagen decorativa")
-              p.mb-0.text-center Usuario (navegador web)
+              p.mb-0.text-center Usuario (navegador #[i web])
 
             .col-lg.col-md-6.tarjeta-bg03.p-4(data-aos="flip-right")
               .row.justify-content-center.mb-3
                 .col-5
                   img(src='@/assets/curso/tema7/img-14.svg' alt="Imagen decorativa")
-              p.mb-0.text-center Aplicación web
+              p.mb-0.text-center Aplicación #[i web]
 
             .col-lg.col-md-6.tarjeta-bg03.p-4(data-aos="flip-left")
               .row.justify-content-center.mb-3
@@ -314,7 +314,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p En síntesis, la arquitectura candidata constituye una propuesta inicial de diseño que orienta el desarrollo del software, permitiendo estructurar el sistema de manera coherente y asegurar que las decisiones técnicas respondan a los objetivos del proyecto.
+        p En síntesis, la arquitectura candidata constituye una propuesta inicial de diseño que orienta el desarrollo del #[i software], permitiendo estructurar el sistema de manera coherente y asegurar que las decisiones técnicas respondan a los objetivos del proyecto.
 
 
 
