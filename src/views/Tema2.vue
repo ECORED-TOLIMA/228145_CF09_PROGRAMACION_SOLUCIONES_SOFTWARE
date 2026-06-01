@@ -22,11 +22,11 @@
         p Entre las características que distinguen este enfoque se encuentran:
 
         .tarjeta-bg02.p-4.mb-4
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema2/img-02.svg", alt="alt").img100.m-auto
             .col-lg-10
-              ul.lista-ul
+              ul.lista-ul.mb-0
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
                   | Representación del sistema mediante clases y objetos.
@@ -41,14 +41,14 @@
                   | Flexibilidad para extender o modificar funcionalidades del sistema.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Organización modular que facilita el mantenimiento y evolución del #[i software].
+                  span Organización modular que facilita el mantenimiento y evolución del #[i software].
 
         p El diseño orientado a objetos se utiliza ampliamente en el desarrollo de aplicaciones modernas, ya que permite construir sistemas más robustos y escalables. Además, este enfoque se integra con herramientas de modelado como los diagramas del lenguaje UML, los cuales permiten representar de manera estructurada los elementos que conforman el sistema antes de su implementación.
 
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 2.1. Conceptos del diseño orientado a objetos
+      h2 2.1 Conceptos del diseño orientado a objetos
 
     p El diseño orientado a objetos se fundamenta en un conjunto de conceptos que permiten estructurar el #[i software] mediante componentes independientes que interactúan entre sí. Estos conceptos facilitan la organización del código, la reutilización de funcionalidades y la construcción de sistemas más flexibles y mantenibles.
     p.mb-4 A continuación, se presentan algunos de los conceptos más importantes utilizados en el diseño orientado a objetos.
@@ -106,12 +106,12 @@
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 2.2. Principios de calidad en el diseño de #[i software]
+      h2 2.2 Principios de calidad en el diseño de #[i software]
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         .tarjeta-bg01.p-4
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-lg-1.d-none.d-lg-block
               img(src="@/assets/curso/tema2/img-10.svg", alt="alt").img100.m-auto
             .col-lg-11

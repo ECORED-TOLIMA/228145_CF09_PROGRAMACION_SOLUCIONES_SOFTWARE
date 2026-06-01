@@ -7,7 +7,7 @@
         span 7
       h1 Plataformas tecnológicas y documentación del diseño
 
-    p.mb-4 En el desarrollo de #[i software], la selección de las plataformas tecnológicas y la elaboración de la documentación de diseño constituyen actividades fundamentales para garantizar la calidad, organización y sostenibilidad de los sistemas. Las plataformas tecnológicas proporcionan las herramientas, lenguajes, frameworks y entornos necesarios para construir y ejecutar las aplicaciones, mientras que la documentación permite registrar las decisiones técnicas tomadas durante el proceso de diseño.
+    p.mb-4 En el desarrollo de #[i software], la selección de las plataformas tecnológicas y la elaboración de la documentación de diseño constituyen actividades fundamentales para garantizar la calidad, organización y sostenibilidad de los sistemas. Las plataformas tecnológicas proporcionan las herramientas, lenguajes, #[i frameworks] y entornos necesarios para construir y ejecutar las aplicaciones, mientras que la documentación permite registrar las decisiones técnicas tomadas durante el proceso de diseño.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario(data-aos="flip-up")(style="background-color:#68EAE0 !important")
       .bloque-texto-gg__texto.p-4
@@ -21,47 +21,48 @@
     Separador
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.1. Plataformas tecnológicas para el desarrollo de #[i software]
+      h2 7.1 Plataformas tecnológicas para el desarrollo de #[i software]
 
-    p.mb-4 Las plataformas tecnológicas para el desarrollo de #[i software] corresponden al conjunto de herramientas, lenguajes, frameworks y entornos que permiten diseñar, construir, ejecutar y mantener aplicaciones informáticas. Estas plataformas proporcionan la infraestructura necesaria para que los desarrolladores puedan implementar las funcionalidades del sistema y gestionar los diferentes componentes que lo conforman.
+    .bg-c2.px-md-5.px-4.mb-4
+      p.mb-4 Las plataformas tecnológicas para el desarrollo de #[i software] corresponden al conjunto de herramientas, lenguajes, #[i frameworks] y entornos que permiten diseñar, construir, ejecutar y mantener aplicaciones informáticas. Estas plataformas proporcionan la infraestructura necesaria para que los desarrolladores puedan implementar las funcionalidades del sistema y gestionar los diferentes componentes que lo conforman.
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p La elección de una plataforma tecnológica depende de diversos factores, entre ellos el tipo de aplicación que se desea desarrollar, los requerimientos del sistema, el entorno de ejecución y las necesidades de escalabilidad o mantenimiento. Una selección adecuada de tecnologías contribuye a mejorar el rendimiento del sistema, facilitar su evolución y garantizar la compatibilidad con otros sistemas.
-        p En el desarrollo de #[i software], las plataformas tecnológicas suelen integrarse en un ecosistema que incluye herramientas de programación, entornos de desarrollo, motores de bases de datos y sistemas de gestión de versiones.
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          .cajon.cajon.C02.color-secundario.p-4.mb-4
+            p La elección de una plataforma tecnológica depende de diversos factores, entre ellos el tipo de aplicación que se desea desarrollar, los requerimientos del sistema, el entorno de ejecución y las necesidades de escalabilidad o mantenimiento. Una selección adecuada de tecnologías contribuye a mejorar el rendimiento del sistema, facilitar su evolución y garantizar la compatibilidad con otros sistemas.
+          p En el desarrollo de #[i software], las plataformas tecnológicas suelen integrarse en un ecosistema que incluye herramientas de programación, entornos de desarrollo, motores de bases de datos y sistemas de gestión de versiones.
 
-        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 19.
-          span Componentes de una plataforma tecnológica de desarrollo
-        .tabla-a.color-acento-contenido.mb-4
-          table
-            thead
-              tr(data-aos="fade-right")
-                th(style="width: 20%; background-color: #FFEEBC;") Componente
-                th(style="width: 20%; background-color: #FFEEBC;") Descripción
-                th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
-            tbody
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Lenguajes de programación.
-                td(style="background-color: #F0F8FF;") Permiten escribir el código fuente del sistema y definir su lógica de funcionamiento.
-                td(style="background-color: #F0F8FF;") Java, Python y JavaScript.
-              tr(data-aos="fade-right")
-                td Frameworks.
-                td Conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones.
-                td Spring, Django y React.
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Entornos de desarrollo (IDE).
-                td(style="background-color: #F0F8FF;") Aplicaciones que proporcionan herramientas para escribir, probar y depurar código.
-                td(style="background-color: #F0F8FF;") IntelliJ IDEA y Visual Studio Code.
-              tr(data-aos="fade-right")
-                td Motores de bases de datos.
-                td Sistemas que permiten almacenar, gestionar y consultar información.
-                td MySQL, PostgreSQL y MongoDB.
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Sistemas de control de versiones.
-                td(style="background-color: #F0F8FF;") Herramientas que permiten gestionar cambios en el código fuente.
-                td(style="background-color: #F0F8FF;") Git.
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 19.
+            span Componentes de una plataforma tecnológica de desarrollo
+          .tabla-a.color-acento-contenido.mb-4
+            table
+              thead
+                tr(data-aos="fade-right")
+                  th(style="width: 20%; background-color: #FFEEBC;") Componente
+                  th(style="width: 20%; background-color: #FFEEBC;") Descripción
+                  th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
+              tbody
+                tr(data-aos="fade-right")
+                  td(style="background-color: #F0F8FF;") Lenguajes de programación.
+                  td(style="background-color: #F0F8FF;") Permiten escribir el código fuente del sistema y definir su lógica de funcionamiento.
+                  td(style="background-color: #F0F8FF;") Java, Python y JavaScript.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #FFFF;") #[i Frameworks].
+                  td(style="background-color: #FFFF;") Conjunto de herramientas y librerías que facilitan el desarrollo de aplicaciones.
+                  td(style="background-color: #FFFF;") Spring, Django y React.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #F0F8FF;") Entornos de desarrollo (IDE).
+                  td(style="background-color: #F0F8FF;") Aplicaciones que proporcionan herramientas para escribir, probar y depurar código.
+                  td(style="background-color: #F0F8FF;") IntelliJ IDEA y Visual Studio Code.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #FFFF;") Motores de bases de datos.
+                  td(style="background-color: #FFFF;") Sistemas que permiten almacenar, gestionar y consultar información.
+                  td(style="background-color: #FFFF;") MySQL, PostgreSQL y MongoDB.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #F0F8FF;") Sistemas de control de versiones.
+                  td(style="background-color: #F0F8FF;") Herramientas que permiten gestionar cambios en el código fuente.
+                  td(style="background-color: #F0F8FF;") Git.
 
     .row.justify-content-center
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -73,7 +74,7 @@
     Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.2. Motores de bases de datos relacionales y no relacionales
+      h2 7.2 Motores de bases de datos relacionales y no relacionales
 
     p.mb-4 Los motores de bases de datos son sistemas encargados de almacenar, gestionar y recuperar la información utilizada por las aplicaciones de #[i software]. Estos motores permiten organizar grandes volúmenes de datos de manera estructurada y facilitan su consulta, actualización y mantenimiento.
 
@@ -81,13 +82,13 @@
       .col-lg-10
         .tarjeta-bg01.p-4.mb-4
           .row.justify-content-center
-            .col-lg-2.d-none.d-lg-block
-              img(src="@/assets/curso/tema7/img-03.svg", alt="alt").img100.m-auto
             .col-lg-10
               p En el desarrollo de #[i software], la selección del motor de base de datos depende de diversos factores, como el tipo de aplicación, la cantidad de información que se debe manejar, el nivel de concurrencia de usuarios y los requerimientos de escalabilidad del sistema.
               p De manera general, los motores de bases de datos pueden clasificarse en dos grandes categorías: 
-              .cajon.cajon.C03.p-2.mb-4
+              .cajon.cajon.C03.p-2
                 p.mb-0.text-center Relacionales y no relacionales.
+            .col-lg-2.d-none.d-lg-block
+              img(src="@/assets/curso/tema7/img-03.svg", alt="alt").img100.m-auto
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -118,6 +119,8 @@
       )
       .bloque-texto-g__texto.p-4
         p Por otra parte, las bases de datos no relacionales, también conocidas como NoSQL, han surgido como una alternativa para aplicaciones modernas que manejan grandes volúmenes de información, como plataformas #[i web], redes sociales o sistemas de análisis de datos.
+        br
+        br
         p.mb-0 En síntesis, la elección entre un motor de base de datos relacional o no relacional depende de las necesidades específicas del sistema. Mientras los motores relacionales ofrecen una estructura organizada y consistente para la gestión de datos, los motores no relacionales brindan mayor flexibilidad y escalabilidad para aplicaciones distribuidas o con altos volúmenes de información.
 
     .row.justify-content-center.align-items-center
@@ -133,19 +136,19 @@
     Separador
 
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.3. Documento de diseño de #[i software]
+      h2 7.3 Documento de diseño de #[i software]
 
     p.mb-4 El documento de diseño de #[i software] es un artefacto técnico que describe la estructura, organización y funcionamiento del sistema que se desea desarrollar. Este documento permite registrar de manera formal las decisiones de diseño tomadas durante el proceso de desarrollo y sirve como guía para los equipos encargados de implementar la solución.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta-bg01.p-4.mb-4
-          .row.justify-content-center.align-items-center
-            .col-lg-3.d-none.d-lg-block
-              img(src="@/assets/curso/tema7/img-05.svg", alt="alt").img100.m-auto
+          .row.justify-content-center
             .col-lg-9
               p En el proceso de ingeniería de #[i software], el documento de diseño cumple un papel fundamental, ya que traduce los requerimientos del sistema en una propuesta estructurada que describe cómo se construirá la aplicación. De esta manera, facilita la comunicación entre analistas, arquitectos de #[i software], desarrolladores y demás actores involucrados en el proyecto.
               p.mb-0 Además, este documento permite mantener una referencia clara sobre la arquitectura del sistema, los componentes que lo conforman, las tecnologías seleccionadas y las relaciones entre los distintos módulos del #[i software].
+            .col-lg-3.d-none.d-lg-block
+              img(src="@/assets/curso/tema7/img-05.svg", alt="alt").img100.m-auto
 
         p Un documento de diseño de #[i software] suele incluir diferentes secciones que describen aspectos técnicos y estructurales del sistema.
         
@@ -182,24 +185,27 @@
                 td(style="background-color: #F0F8FF;") Facilitar la comprensión visual del sistema.
               tr(data-aos="fade-right")
                 td Tecnologías utilizadas.
-                td Indica los lenguajes, frameworks y herramientas empleadas.
+                td Indica los lenguajes, #[i frameworks] y herramientas empleadas.
                 td Documentar la infraestructura tecnológica del proyecto.
+    
+    .bg-c2.px-md-5.px-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p La elaboración de este documento permite planificar de manera organizada el desarrollo del #[i software], reducir riesgos durante la implementación y facilitar el mantenimiento del sistema en el futuro.
+          .cajon.cajon.C02.color-secundario.p-4.mb-4
+            p Asimismo, el documento de diseño sirve como base para la documentación técnica del proyecto, permitiendo que nuevos miembros del equipo comprendan rápidamente la estructura y funcionamiento del sistema.
 
-        p La elaboración de este documento permite planificar de manera organizada el desarrollo del #[i software], reducir riesgos durante la implementación y facilitar el mantenimiento del sistema en el futuro.
-        .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p Asimismo, el documento de diseño sirve como base para la documentación técnica del proyecto, permitiendo que nuevos miembros del equipo comprendan rápidamente la estructura y funcionamiento del sistema.
-
-    .row.justify-content-center
-      .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
-        figure
-          img(src='@/assets/curso/tema7/img-06.svg', alt='')
-      .col.col-lg-9.col-12.order-lg-2.order-2
-        p.mb-0(data-aos="fade-down") En síntesis, el documento de diseño de #[i software] constituye una herramienta esencial dentro del proceso de desarrollo, ya que permite documentar la arquitectura, los componentes y las decisiones técnicas del sistema, garantizando una construcción más organizada, comprensible y sostenible del #[i software].
+        .row.justify-content-center
+          .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/tema7/img-06.svg', alt='')
+          .col.col-lg-9.col-12.order-lg-2.order-2
+            p.mb-0(data-aos="fade-down") En síntesis, el documento de diseño de #[i software] constituye una herramienta esencial dentro del proceso de desarrollo, ya que permite documentar la arquitectura, los componentes y las decisiones técnicas del sistema, garantizando una construcción más organizada, comprensible y sostenible del #[i software].
 
     Separador
 
     #t_7_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 7.4. Arquitectura candidata
+      h2 7.4 Arquitectura candidata
 
     p.mb-4 La arquitectura candidata corresponde a la propuesta inicial de arquitectura de #[i software] que se plantea para satisfacer los requerimientos funcionales y no funcionales de un sistema. Esta arquitectura se construye a partir del análisis de los requerimientos, las restricciones tecnológicas, las necesidades del negocio y las características del entorno donde será implementado el sistema.
 
@@ -208,9 +214,9 @@
         .row.justify-content-center
           .col
             .tarjeta-bg01.p-4.mb-4
-              p En este modelo, el desarrollador se enfoca principalmente en escribir el código y definir las funciones que ejecutará el sistema, mientras que la plataforma se encarga automáticamente de tareas como el aprovisionamiento de recursos, la escalabilidad, la disponibilidad y el mantenimiento de la infraestructura.
-              p.mb-0 La arquitectura serverless se basa en el concepto de ejecución bajo demanda, lo que significa que las funciones del sistema se ejecutan únicamente cuando ocurre un evento específico, como una solicitud de un usuario, una actualización en una base de datos o la carga de un archivo.
-      .col-lg-5.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
+              p Durante el proceso de diseño de #[i software], la arquitectura candidata permite definir una estructura preliminar del sistema, identificando los principales componentes, las tecnologías que se utilizarán y la forma en que estos elementos interactúan entre sí. Esta propuesta sirve como base para orientar el desarrollo del sistema y facilitar la toma de decisiones técnicas.
+              p.mb-0 La arquitectura candidata no representa necesariamente la versión final del diseño del sistema. En muchos casos, puede ser ajustada o refinada a medida que el equipo de desarrollo profundiza en el análisis del proyecto o surgen nuevos requerimientos.
+      .col-lg-5.col-8.order-1.order-lg-2.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema7/img-07.png', alt='') 
 
@@ -246,7 +252,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/tema7/img-11.svg' alt='AvatarTop')
           h4.text-center Tecnologías y plataformas
-          p.mb-0 Incluye los lenguajes de programación, frameworks, bases de datos y herramientas tecnológicas que se utilizarán en el proyecto.
+          p.mb-0 Incluye los lenguajes de programación, #[i frameworks], bases de datos y herramientas tecnológicas que se utilizarán en el proyecto.
 
         .tarjeta.tarjeta--BGC01.p-4
           .row.justify-content-center.mb-4
@@ -270,20 +276,20 @@
           p En esta propuesta inicial se definen los siguientes elementos:
 
           .cajon.cajon.C03.p-4.mb-4              
-            .col-lg-12.col-md-8.col-12
+            .col-lg-12.col-md-12.col-12
               ul.lista-ul.mb-0
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Interfaz de usuario: se desarrollará una aplicación #[i web] a la que los usuarios accederán desde su navegador para buscar hoteles, consultar disponibilidad y realizar reservas.
+                  span #[b Interfaz de usuario:] se desarrollará una aplicación #[i web] a la que los usuarios accederán desde su navegador para buscar hoteles, consultar disponibilidad y realizar reservas.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Servidor de aplicación: el servidor procesará las solicitudes enviadas por los usuarios, gestionará la lógica del sistema y controlará las operaciones relacionadas con las reservas.
+                  span #[b Servidor de aplicación:] el servidor procesará las solicitudes enviadas por los usuarios, gestionará la lógica del sistema y controlará las operaciones relacionadas con las reservas.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Base de datos: se utilizará un sistema gestor de bases de datos para almacenar información sobre hoteles, habitaciones, usuarios y reservas.
+                  span #[b Base de datos:] se utilizará un sistema gestor de bases de datos para almacenar información sobre hoteles, habitaciones, usuarios y reservas.
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
-                  | Servicios del sistema: se implementarán servicios que permitirán gestionar funcionalidades como autenticación de usuarios, consulta de disponibilidad y registro de reservas.
+                  span #[b Servicios del sistema:] se implementarán servicios que permitirán gestionar funcionalidades como autenticación de usuarios, consulta de disponibilidad y registro de reservas.
 
           p De manera simplificada, la arquitectura candidata podría representarse así:
           .row.mb-4.arquitectura-cards

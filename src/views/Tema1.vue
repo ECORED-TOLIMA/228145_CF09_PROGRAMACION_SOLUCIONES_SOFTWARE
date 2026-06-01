@@ -32,7 +32,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 1.1. Interpretación del informe de análisis
+      h2 1.1 Interpretación del informe de análisis
 
     p.mb-4 La interpretación del informe de análisis consiste en examinar y comprender la información obtenida durante el levantamiento de requerimientos del sistema. Este informe reúne los resultados del estudio del problema, las necesidades de los usuarios, las funcionalidades esperadas y las restricciones que pueden influir en el desarrollo del #[i software].
 
@@ -40,12 +40,12 @@
       .col-lg-10
         .tarjeta-bg01.p-4.mb-4
           .row.justify-content-center
-            .col-lg-2.d-none.d-lg-block
-              img(src="@/assets/curso/tema1/img-03.svg", alt="alt").img100.m-auto
             .col-lg-10
               p Una correcta interpretación permite transformar esta información en una base clara para el diseño del sistema, ya que facilita comprender qué debe hacer la aplicación y bajo qué condiciones deberá operar.
               p.mb-0 Durante este proceso se analizan distintos elementos del informe con el fin de garantizar que los requerimientos sean comprensibles y útiles para la etapa de diseño.
-
+            .col-lg-2.d-none.d-lg-block
+              img(src="@/assets/curso/tema1/img-03.svg", alt="alt").img100.m-auto
+              
     p.text-center Entre los aspectos que normalmente se revisan se encuentran los siguientes:
 
     .BG06.px-md-5.p-lg-0.p-4.mb-4
@@ -123,7 +123,7 @@
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 1.2. Análisis de requerimientos y toma de decisiones de diseño
+      h2 1.2 Análisis de requerimientos y toma de decisiones de diseño
 
     p.mb-4 El análisis de requerimientos es el proceso mediante el cual se examina y organiza la información obtenida durante la etapa de análisis del sistema con el propósito de comprender con mayor precisión las necesidades que debe satisfacer el #[i software]. A partir de este análisis se identifican las funcionalidades que debe ofrecer el sistema, las restricciones técnicas existentes y los criterios de calidad que orientarán su desarrollo.
 

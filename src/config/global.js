@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Diseño orientado a objetos y arquitectura de <em>software</em>',
     Description:
-      'El componente aborda los fundamentos del diseño orientado a objetos y la arquitectura de software, a partir del análisis de requerimientos y la toma de decisiones de diseño. Se presentan conceptos, principios, diagramas, patrones de diseño y tipos de arquitectura, así como arquitecturas modernas y prácticas de desarrollo que permiten estructurar sistemas de software mantenibles, escalables y eficientes.',
+      'El componente aborda los fundamentos del diseño orientado a objetos y la arquitectura de <em>software</em>, a partir del análisis de requerimientos y la toma de decisiones de diseño. Se presentan conceptos, principios, diagramas, patrones de diseño y tipos de arquitectura, así como arquitecturas modernas y prácticas de desarrollo que permiten estructurar sistemas de <em>software</em> mantenibles, escalables y eficientes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Análisis y toma de decisiones en el diseño de software',
+        titulo:
+          'Análisis y toma de decisiones en el diseño de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -65,7 +66,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Principios de calidad en el diseño de software',
+            titulo: 'Principios de calidad en el diseño de <em>software</em>',
             hash: 't_2_2',
           },
         ],
@@ -91,7 +92,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Patrones de diseño de software',
+        titulo: 'Patrones de diseño de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -109,7 +110,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Arquitectura de software',
+        titulo: 'Arquitectura de <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -157,7 +158,7 @@ export default {
           },
           {
             numero: '6.4',
-            titulo: 'Arquitectura serverless',
+            titulo: 'Arquitectura <em>serverless</em>',
             hash: 't_6_4',
           },
           {
@@ -175,7 +176,8 @@ export default {
         subMenu: [
           {
             numero: '7.1',
-            titulo: 'Plataformas tecnológicas para el desarrollo de software',
+            titulo:
+              'Plataformas tecnológicas para el desarrollo de <em>software</em>',
             hash: 't_7_1',
           },
           {
@@ -185,7 +187,7 @@ export default {
           },
           {
             numero: '7.3',
-            titulo: 'Documento de diseño de software',
+            titulo: 'Documento de diseño de <em>software</em>',
             hash: 't_7_3',
           },
           {
@@ -356,7 +358,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Manuel Felipe Echavarría Orozco',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -366,7 +368,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang Pinzón',
+          nombre: 'Oscar Ivan Uribe Ortiz',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -391,7 +393,12 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jorge Bustos Gómez',
+          nombre: 'Jorge Bustos Gómez ',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

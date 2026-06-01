@@ -22,12 +22,12 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .tarjeta-bg02.p-4.mb-4
-          .row.justify-content-center.align-items-center
+        .tarjeta-bg04.p-4.mb-4
+          .row.justify-content-center
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema5/img-02.svg", alt="alt").img100.m-auto
             .col-lg-10
-              ul.lista-ul
+              ul.lista-ul.mb-0
                 li
                   i.fas.fa-computer(style="color: #FFC928 !important")
                   | La organización de los componentes del sistema.
@@ -47,27 +47,28 @@
         p Una arquitectura bien definida permite reducir la complejidad del sistema y proporciona una guía clara para el desarrollo del #[i software]. Además, facilita la evolución del sistema a lo largo del tiempo, ya que establece principios estructurales que permiten incorporar nuevas funcionalidades sin afectar significativamente los componentes existentes.
 
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p En síntesis, la arquitectura de #[i software] representa el marco estructural que orienta el diseño y la construcción de sistemas informáticos, permitiendo organizar sus componentes, definir sus interacciones y garantizar que el sistema cumpla con los objetivos técnicos y funcionales del proyecto.
+          p.mb-0 En síntesis, la arquitectura de #[i software] representa el marco estructural que orienta el diseño y la construcción de sistemas informáticos, permitiendo organizar sus componentes, definir sus interacciones y garantizar que el sistema cumpla con los objetivos técnicos y funcionales del proyecto.
 
     Separador
 
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 5.1. Conceptos
+      h2 5.1 Conceptos
 
     p.mb-4 La arquitectura de #[i software] corresponde a la organización estructural de un sistema, donde se definen los componentes que lo conforman, las relaciones entre ellos y los principios que orientan su diseño y evolución. Esta arquitectura actúa como un plano que guía el desarrollo del sistema, permitiendo comprender cómo se distribuyen sus funcionalidades y cómo interactúan los diferentes elementos que lo integran.
 
-    .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
-        figure
-          img(src='@/assets/curso/tema5/img-03.png', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-2.order-2
-        p Desde una perspectiva conceptual, la arquitectura permite establecer una visión global del sistema antes de su implementación. Esto facilita tomar decisiones relacionadas con la organización de los componentes, la distribución de responsabilidades, la comunicación entre módulos y la selección de tecnologías que soportarán el funcionamiento del #[i software].
-        p Según Len Bass, la arquitectura de #[i software] describe las estructuras de un sistema, los elementos que las componen, las propiedades visibles de dichos elementos y las relaciones que existen entre ellos. Esta definición resalta que la arquitectura no solo describe componentes, sino también la forma en que estos colaboran para cumplir los objetivos del sistema.
+    .bg-c2.px-md-5.px-4.mb-4
+      .row.justify-content-center.mb-4
+        .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+          figure
+            img(src='@/assets/curso/tema5/img-03.png', alt='Imagen decorativa')
+        .col.col-lg-7.col-12.order-lg-2.order-2
+          p Desde una perspectiva conceptual, la arquitectura permite establecer una visión global del sistema antes de su implementación. Esto facilita tomar decisiones relacionadas con la organización de los componentes, la distribución de responsabilidades, la comunicación entre módulos y la selección de tecnologías que soportarán el funcionamiento del #[i software].
+          p Según Len Bass, la arquitectura de #[i software] describe las estructuras de un sistema, los elementos que las componen, las propiedades visibles de dichos elementos y las relaciones que existen entre ellos. Esta definición resalta que la arquitectura no solo describe componentes, sino también la forma en que estos colaboran para cumplir los objetivos del sistema.
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8.text-center
-        .titulo3.p-4(data-aos="fade-left")
-          p.mb-0 En el proceso de desarrollo, la arquitectura cumple varias funciones importantes:
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-8.text-center
+          .titulo3.p-4(data-aos="fade-left")
+            p.mb-0 En el proceso de desarrollo, la arquitectura cumple varias funciones importantes:
 
     .row.justify-content-center.mb-4(data-aos="flip-down")
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
@@ -135,14 +136,14 @@
     Separador
 
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 5.2. Tipos de arquitecturas y cualidades sistémicas
+      h2 5.2 Tipos de arquitecturas y cualidades sistémicas
 
-    p.mb-4 En el diseño de #[i software], la arquitectura puede organizarse de diferentes maneras según las necesidades del sistema, el tipo de aplicación y el entorno en el que se implementará. Estas organizaciones estructurales se conocen como tipos de arquitectura, y cada una define una forma particular de distribuir los componentes, las responsabilidades y la comunicación dentro del sistema.
+    p.mb-4 En el diseño de #[i software], la arquitectura puede organizarse de diferentes maneras según las necesidades del sistema, el tipo de aplicación y el entorno en el que se implementará. Estas organizaciones estructurales se conocen como #[b tipos de arquitectura], y cada una define una forma particular de distribuir los componentes, las responsabilidades y la comunicación dentro del sistema.
 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tarjeta-bg01.p-4.mb-4
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema5/img-08.svg", alt="alt").img100.m-auto
             .col-lg-10
@@ -187,7 +188,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img-09.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Además de los tipos de arquitectura, en el diseño de #[i software] también se consideran las cualidades sistémicas, conocidas también como atributos de calidad. Estas cualidades permiten evaluar qué tan adecuado es el diseño de un sistema frente a diferentes condiciones de uso.
+        p Además de los tipos de arquitectura, en el diseño de #[i software] también se consideran las #[b cualidades sistémicas], conocidas también como atributos de calidad. Estas cualidades permiten evaluar qué tan adecuado es el diseño de un sistema frente a diferentes condiciones de uso.
+        br
+        br
         p Las cualidades sistémicas representan propiedades que influyen en el comportamiento, la eficiencia y la capacidad de evolución del #[i software].
 
     .row.justify-content-center.align-items-center
@@ -229,24 +232,25 @@
     Separador
 
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 5.3. Arquitectura cliente-servidor
+      h2 5.3 Arquitectura cliente-servidor
 
-    p.mb-4 La arquitectura cliente-servidor es uno de los modelos más utilizados en el desarrollo de sistemas informáticos y aplicaciones web. En este modelo, el sistema se divide en dos tipos principales de componentes: clientes y servidores. 
+    p.mb-4 La arquitectura cliente-servidor es uno de los modelos más utilizados en el desarrollo de sistemas informáticos y aplicaciones #[i web]. En este modelo, el sistema se divide en dos tipos principales de componentes: clientes y servidores. 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p El cliente es la aplicación o dispositivo que realiza solicitudes de información o servicios, mientras que el servidor es el sistema encargado de procesar esas solicitudes y enviar una respuesta.
+    .bg-c2.px-md-5.px-4.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          .cajon.cajon.C02.color-secundario.p-4.mb-4
+            p.mb-0 El #[b cliente] es la aplicación o dispositivo que realiza solicitudes de información o servicios, mientras que el #[b servidor] es el sistema encargado de procesar esas solicitudes y enviar una respuesta.
 
-    .row.justify-content-center.mb-4
-      .col-lg-7.order-lg-1.order-2
-        .row.justify-content-center
-          .col
-            p Este modelo permite distribuir las responsabilidades dentro del sistema, lo que facilita la organización del #[i software] y mejora la eficiencia en la gestión de recursos.
-            p En muchos sistemas actuales, el cliente suele ser una aplicación instalada en un dispositivo o un navegador web, mientras que el servidor se ejecuta en una infraestructura centralizada donde se almacenan los datos y la lógica principal del sistema.
-      .col-lg-3.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema5/img-10.svg', alt='') 
+      .row.justify-content-center.mb-4
+        .col-lg-7.order-lg-1.order-2
+          .row.justify-content-center
+            .col
+              p Este modelo permite distribuir las responsabilidades dentro del sistema, lo que facilita la organización del #[i software] y mejora la eficiencia en la gestión de recursos.
+              p En muchos sistemas actuales, el cliente suele ser una aplicación instalada en un dispositivo o un navegador #[i web], mientras que el servidor se ejecuta en una infraestructura centralizada donde se almacenan los datos y la lógica principal del sistema.
+        .col-lg-3.col-8.order-1.order-lg-2.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/tema5/img-10.svg', alt='') 
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -266,11 +270,11 @@
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Cliente.
                 td(style="background-color: #F0F8FF;") Aplicación que solicita información o servicios al servidor.
-                td(style="background-color: #F0F8FF;") Navegador web.
+                td(style="background-color: #F0F8FF;") Navegador #[i web].
               tr(data-aos="fade-right")
                 td Servidor.
                 td Sistema que procesa las solicitudes y envía respuestas.
-                td Servidor web.
+                td Servidor #[i web].
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Red.
                 td(style="background-color: #F0F8FF;") Medio de comunicación entre cliente y servidor.
@@ -282,7 +286,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
-        .titulo3.p-4(data-aos="fade-left")
+        .titulo3.titulo3-audifonos.p-4(data-aos="fade-left")
           p.mb-0 El funcionamiento de este modelo se basa en un proceso de solicitud y respuesta.
 
     .BG06.px-md-5.p-lg-0.p-4.mb-4
@@ -320,15 +324,15 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p Este mecanismo permite que múltiples clientes puedan comunicarse con un mismo servidor, lo que hace posible el funcionamiento de servicios como páginas web, aplicaciones móviles y sistemas empresariales.
+        p Este mecanismo permite que múltiples clientes puedan comunicarse con un mismo servidor, lo que hace posible el funcionamiento de servicios como páginas #[i web], aplicaciones móviles y sistemas empresariales.
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p Un ejemplo sencillo de arquitectura cliente-servidor puede presentarse en una aplicación web de comercio electrónico, como la utilizada por plataformas de compras en línea como Amazon.
-        p En este tipo de aplicaciones, el navegador web funciona como cliente, mientras que el sistema que procesa la información y gestiona los datos funciona como servidor.
+          p Un ejemplo sencillo de arquitectura cliente-servidor puede presentarse en una aplicación #[i web] de comercio electrónico, como la utilizada por plataformas de compras en línea como Amazon.
+        p En este tipo de aplicaciones, el navegador #[i web] funciona como cliente, mientras que el sistema que procesa la información y gestiona los datos funciona como servidor.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
-        .titulo3.p-4(data-aos="fade-left")
-          p.mb-0 Ejemplo de funcionamiento de un usuario que desea buscar unos audífonos en la página web.
+        .titulo3.titulo3-audifonos.p-4(data-aos="fade-left")
+          p.mb-0 Ejemplo de funcionamiento de un usuario que desea buscar unos audífonos en la página #[i web].
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -344,7 +348,7 @@
             .col-lg-5.col-sm-4.col-6
               img(src='@/assets/curso/tema5/img-18.svg' alt='AvatarTop')
           h4.text-center Envío de la solicitud
-          p.mb-0 El navegador envía una solicitud al servidor web para obtener los productos relacionados con esa búsqueda.
+          p.mb-0 El navegador envía una solicitud al servidor #[i web] para obtener los productos relacionados con esa búsqueda.
 
         .tarjeta.tarjeta--BGC01.p-4
           .row.justify-content-center.mb-4
@@ -368,7 +372,7 @@
           p.mb-0 El navegador presenta los resultados al usuario en forma de lista con imágenes, precios y descripciones.
 
     .row.justify-content-center.align-items-center
-      .col-lg-12
+      .col-lg-10
         .tarjeta-bg01.p-4.mb-4
           .row.justify-content-center.align-items-center
             p.mb-0 Este proceso explica el funcionamiento de la arquitectura cliente-servidor: el cliente solicita información, el servidor la procesa y responde, y el usuario puede interactuar con el sistema a través de esa comunicación continua entre ambos componentes.
@@ -376,7 +380,7 @@
     Separador
 
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 5.4. Modelo Vista Controlador (MVC)
+      h2 5.4 Modelo Vista Controlador (MVC)
 
     p El Modelo Vista Controlador (MVC) es un patrón de arquitectura de #[i software] que organiza una aplicación en tres componentes principales con el fin de separar la lógica del sistema, la presentación de la información y la gestión de las interacciones del usuario. Esta separación facilita el mantenimiento del sistema, mejora la organización del código y permite desarrollar aplicaciones más escalables.
     p.mb-4 El modelo divide la aplicación en las siguientes partes:
@@ -389,8 +393,8 @@
             figure
               img(src="@/assets/curso/tema5/img-22.png", alt="Imagen decorativa")
           .crd_hover_txt--body
-            h5.t1.mb-3 Modelo (model)
-            h5.t2.mb-2 Modelo (model)
+            h5.t1.mb-3 Modelo (#[i model])
+            h5.t2.mb-2 Modelo (#[i model])
             p.mb-0 Representa los datos del sistema y la lógica de negocio. Se encarga de gestionar la información, realizar cálculos, aplicar reglas del sistema y comunicarse con la base de datos. El modelo no depende de la interfaz de usuario.
       .col-xl-4.col-lg-4.col-md-10.col-12.mb-xl-0
         .crd_hover_txt.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
@@ -399,9 +403,9 @@
             figure
               img(src="@/assets/curso/tema5/img-23.png", alt="Imagen decorativa")
           .crd_hover_txt--body
-            h5.t1.mb-3 Vista (view)
-            h5.t2.mb-2 Vista (view)
-            p.mb-0 Es la interfaz que muestra la información al usuario. Su función es presentar los datos provenientes del modelo de manera comprensible, por ejemplo mediante páginas web, formularios o paneles de visualización.
+            h5.t1.mb-3 Vista (#[i view])
+            h5.t2.mb-2 Vista (#[i view])
+            p.mb-0 Es la interfaz que muestra la información al usuario. Su función es presentar los datos provenientes del modelo de manera comprensible, por ejemplo mediante páginas #[i web], formularios o paneles de visualización.
       .col-xl-4.col-lg-4.col-md-10.col-12.mb-xl-0
         .crd_hover_txt.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
           .indicador--hover(v-if="mostrarIndicador")
@@ -409,14 +413,14 @@
             figure
               img(src="@/assets/curso/tema5/img-24.png", alt="Imagen decorativa")
           .crd_hover_txt--body
-            h5.t1.mb-3 Controlador (controller)
-            h5.t2.mb-2 Controlador (controller)
+            h5.t1.mb-3 Controlador (#[i controller])
+            h5.t2.mb-2 Controlador (#[i controller])
             p.mb-0 Actúa como intermediario entre el modelo y la vista. Recibe las acciones del usuario (clics, formularios y solicitudes), interpreta estas solicitudes y decide qué acciones debe ejecutar el modelo y qué vista se debe mostrar.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
         .titulo3.p-4(data-aos="fade-left")
-          p.mb-0 A continuación, un ejemplo sencillo en una aplicación web:
+          p.mb-0 A continuación, un ejemplo sencillo en una aplicación #[i web]:
 
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -424,7 +428,7 @@
           p En una plataforma de reservas de hoteles:
           
           .cajon.cajon.C03.p-4.mb-4
-            .row.align-items-center.justify-content-center
+            .row.justify-content-center
               .col-lg-3.col-md-4.col-8.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/tema5/img-25.svg', alt='Imagen decorativa')
@@ -433,13 +437,13 @@
                 ul.lista-ul.mb-0
                   li.mb-0
                     i.lista-ul__vineta
-                    p Modelo: gestiona la información de los hoteles, habitaciones disponibles, precios y reservas almacenadas en la base de datos.
+                    p #[b Modelo:] gestiona la información de los hoteles, habitaciones disponibles, precios y reservas almacenadas en la base de datos.
                   li.mb-0
                     i.lista-ul__vineta
-                    p Vista: presenta al usuario las páginas web donde puede buscar hoteles, revisar habitaciones disponibles y realizar la reserva.
+                    p #[b Vista:] presenta al usuario las páginas #[i web] donde puede buscar hoteles, revisar habitaciones disponibles y realizar la reserva.
                   li.mb-0
                     i.lista-ul__vineta
-                    p Controlador: recibe la solicitud del usuario cuando busca un hotel, consulta la información en el modelo y envía los resultados a la vista para que se presenten en la página.
+                    p #[b Controlador:] recibe la solicitud del usuario cuando busca un hotel, consulta la información en el modelo y envía los resultados a la vista para que se presenten en la página.
           p.mb-0 De esta manera, el modelo se encarga de los datos, la vista presenta la información y el controlador coordina la interacción entre ambos, permitiendo que el sistema funcione de forma organizada y eficiente.  
         
 

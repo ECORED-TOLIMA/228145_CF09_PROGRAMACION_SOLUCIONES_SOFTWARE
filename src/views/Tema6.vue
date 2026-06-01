@@ -18,7 +18,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p Entre estos enfoques se encuentran la arquitectura orientada a servicios, los microservicios, las arquitecturas serverless y las prácticas asociadas a DevOps y la integración continua. Estos modelos permiten que las aplicaciones se construyan mediante componentes independientes que pueden desarrollarse, actualizarse y desplegarse de manera autónoma.
+        p Entre estos enfoques se encuentran la arquitectura orientada a servicios, los microservicios, las arquitecturas #[i serverless] y las prácticas asociadas a DevOps y la integración continua. Estos modelos permiten que las aplicaciones se construyan mediante componentes independientes que pueden desarrollarse, actualizarse y desplegarse de manera autónoma.
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p Asimismo, el uso de interfaces de comunicación como REST y GraphQL facilita el intercambio de información entre sistemas, permitiendo que diferentes aplicaciones y servicios se integren de forma eficiente dentro de una misma plataforma tecnológica.
         p En conjunto, estas arquitecturas y prácticas contribuyen a crear sistemas más flexibles, escalables y preparados para responder a las necesidades cambiantes de las organizaciones y de los usuarios.
@@ -26,9 +26,9 @@
     Separador
 
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.1. Arquitectura orientada a servicios
+      h2 6.1 Arquitectura orientada a servicios
 
-    p.mb-4 La arquitectura orientada a servicios (SOA, Service-Oriented Architecture) es un enfoque de diseño de #[i software] que organiza las funcionalidades de un sistema en servicios independientes que pueden comunicarse entre sí a través de una red.
+    p.mb-4 La arquitectura orientada a servicios #[b (SOA, Service-Oriented Architecture)] es un enfoque de diseño de #[i software] que organiza las funcionalidades de un sistema en servicios independientes que pueden comunicarse entre sí a través de una red.
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#C9E8F7 !important")
       .bloque-texto-gg__texto.p-4
@@ -37,66 +37,67 @@
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema6/img-02.png')})`}"
       )
+    
+    .bg-c2.px-md-5.px-4.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p Este enfoque presenta diversas características que facilitan el desarrollo, la integración y el mantenimiento de los sistemas:
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        p Este enfoque presenta diversas características que facilitan el desarrollo, la integración y el mantenimiento de los sistemas:
+          ol.lista-ol--cuadro.lista-ol--separador
+            li(data-aos="fade-left") 
+              .lista-ol--cuadro__vineta
+                span 1
+              span #[b Modularidad:] el sistema se divide en servicios independientes.
 
-        ol.lista-ol--cuadro.lista-ol--separador
-          li(data-aos="fade-left") 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Modularidad: el sistema se divide en servicios independientes.
+            li(data-aos="fade-left") 
+              .lista-ol--cuadro__vineta
+                span 2
+              span #[b Reutilización:] un mismo servicio puede ser utilizado por diferentes aplicaciones.
 
-          li(data-aos="fade-left") 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Reutilización: un mismo servicio puede ser utilizado por diferentes aplicaciones.
+            li(data-aos="fade-left") 
+              .lista-ol--cuadro__vineta
+                span 3
+              span #[b Interoperabilidad:] permite la comunicación entre sistemas desarrollados en distintas tecnologías.
 
-          li(data-aos="fade-left") 
-            .lista-ol--cuadro__vineta
-              span 3
-            | Interoperabilidad: permite la comunicación entre sistemas desarrollados en distintas tecnologías.
+            li(data-aos="fade-left") 
+              .lista-ol--cuadro__vineta
+                span 4
+              span #[b Escalabilidad:] los servicios pueden ampliarse o modificarse sin afectar todo el sistema.
 
-          li(data-aos="fade-left") 
-            .lista-ol--cuadro__vineta
-              span 4
-            | Escalabilidad: los servicios pueden ampliarse o modificarse sin afectar todo el sistema.
+            li(data-aos="fade-left") 
+              .lista-ol--cuadro__vineta
+                span 5
+              span #[b Desacoplamiento:] cada servicio funciona de manera relativamente independiente.
 
-          li(data-aos="fade-left") 
-            .lista-ol--cuadro__vineta
-              span 5
-            | Desacoplamiento: cada servicio funciona de manera relativamente independiente.
-
-        p La arquitectura orientada a servicios se fundamenta además en un conjunto de elementos que permiten estructurar y gestionar la comunicación entre los diferentes sistemas y aplicaciones. Estos elementos facilitan la publicación, el descubrimiento, el consumo y el intercambio de servicios dentro de una organización, garantizando interoperabilidad, reutilización y escalabilidad en los sistemas de información. A continuación, se presentan algunos de los componentes más representativos que hacen posible el funcionamiento de esta arquitectura.
-        
-        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 14.
-          span Componentes de la arquitectura orientada a servicios
-        .tabla-a.color-acento-contenido.mb-4
-          table
-            thead
-              tr(data-aos="fade-right")
-                th(style="width: 20%; background-color: #FFEEBC;") Componente
-                th(style="width: 20%; background-color: #FFEEBC;") Descripción
-                th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
-            tbody
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Servicio.
-                td(style="background-color: #F0F8FF;") Funcionalidad específica que el sistema ofrece.
-                td(style="background-color: #F0F8FF;") Servicio de autenticación de usuarios.
-              tr(data-aos="fade-right")
-                td Proveedor de servicio.
-                td Sistema o aplicación que ofrece el servicio.
-                td Servidor que gestiona el login.
-              tr(data-aos="fade-right")
-                td(style="background-color: #F0F8FF;") Consumidor de servicio.
-                td(style="background-color: #F0F8FF;") Aplicación que utiliza el servicio.
-                td(style="background-color: #F0F8FF;") Aplicación web o móvil.
-              tr(data-aos="fade-right")
-                td Contrato de servicio.
-                td Define cómo se utiliza el servicio y qué información intercambia.
-                td API o especificación de comunicación.
+          p La arquitectura orientada a servicios se fundamenta además en un conjunto de elementos que permiten estructurar y gestionar la comunicación entre los diferentes sistemas y aplicaciones. Estos elementos facilitan la publicación, el descubrimiento, el consumo y el intercambio de servicios dentro de una organización, garantizando interoperabilidad, reutilización y escalabilidad en los sistemas de información. A continuación, se presentan algunos de los componentes más representativos que hacen posible el funcionamiento de esta arquitectura.
+          
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 14.
+            span Componentes de la arquitectura orientada a servicios
+          .tabla-a.color-acento-contenido.mb-4
+            table
+              thead
+                tr(data-aos="fade-right")
+                  th(style="width: 20%; background-color: #FFEEBC;") Componente
+                  th(style="width: 20%; background-color: #FFEEBC;") Descripción
+                  th(style="width: 20%; background-color: #FFEEBC;") Ejemplo
+              tbody
+                tr(data-aos="fade-right")
+                  td(style="background-color: #F0F8FF;") Servicio.
+                  td(style="background-color: #F0F8FF;") Funcionalidad específica que el sistema ofrece.
+                  td(style="background-color: #F0F8FF;") Servicio de autenticación de usuarios.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #FFFF;") Proveedor de servicio.
+                  td(style="background-color: #FFFF;") Sistema o aplicación que ofrece el servicio.
+                  td(style="background-color: #FFFF;") Servidor que gestiona el #[i login].
+                tr(data-aos="fade-right")
+                  td(style="background-color: #F0F8FF;") Consumidor de servicio.
+                  td(style="background-color: #F0F8FF;") Aplicación que utiliza el servicio.
+                  td(style="background-color: #F0F8FF;") Aplicación #[i web] o móvil.
+                tr(data-aos="fade-right")
+                  td(style="background-color: #FFFF;") Contrato de servicio.
+                  td(style="background-color: #FFFF;") Define cómo se utiliza el servicio y qué información intercambia.
+                  td(style="background-color: #FFFF;") API o especificación de comunicación.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.text-center
@@ -109,13 +110,13 @@
           p Supóngase una plataforma de comercio electrónico. En este sistema, diferentes funcionalidades pueden implementarse como servicios independientes:
           
           .cajon.cajon.C03.p-4.mb-4
-            .row.align-items-center.justify-content-center
-              .col-lg-3.col-md-4.col-8.mb-4.mb-lg-0
+            .row.justify-content-center
+              .col-lg-3.col-md-4.col-8.mb-4.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema6/img-03.svg', alt='Imagen decorativa')
               
               .col-lg-9.col-md-8.col-12
-                ul.lista-ul
+                ul.lista-ul.mb-0
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
                     | Servicio de gestión de usuarios.
@@ -137,13 +138,13 @@
     Separador
 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.2. Arquitecturas basadas en APIs REST y GraphQL
+      h2 6.2 Arquitecturas basadas en APIs REST y GraphQL
 
-    p.mb-4 Las arquitecturas basadas en APIs (Application Programming Interfaces) permiten que diferentes aplicaciones o sistemas se comuniquen entre sí mediante interfaces bien definidas. En este enfoque, los sistemas exponen servicios o recursos que pueden ser consumidos por otras aplicaciones a través de solicitudes realizadas generalmente mediante protocolos web.
+    p.mb-4 Las arquitecturas basadas en  #[b APIs (Application Programming Interfaces)] permiten que diferentes aplicaciones o sistemas se comuniquen entre sí mediante interfaces bien definidas. En este enfoque, los sistemas exponen servicios o recursos que pueden ser consumidos por otras aplicaciones a través de solicitudes realizadas generalmente mediante protocolos #[i web].
 
     .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-4(data-aos="flip-up")(style="background-color:#68EAE0 !important")
       .bloque-texto-gg__texto.p-4
-        p Este modelo es ampliamente utilizado en aplicaciones web y móviles, ya que permite separar el frontend (interfaz de usuario) del backend (lógica del sistema y manejo de datos). De esta manera, diferentes aplicaciones pueden utilizar los mismos servicios sin necesidad de duplicar funcionalidades.
+        p Este modelo es ampliamente utilizado en aplicaciones #[i web] y móviles, ya que permite separar el #[i frontend] (interfaz de usuario) del #[i backend] (lógica del sistema y manejo de datos). De esta manera, diferentes aplicaciones pueden utilizar los mismos servicios sin necesidad de duplicar funcionalidades.
         p.mb-0 Entre los enfoques más utilizados para construir APIs se encuentran REST y GraphQL, los cuales ofrecen distintas formas de acceder y gestionar la información dentro de un sistema.
       .bloque-texto-gg__img(
         :style="{'background-image':`url(${require('@/assets/curso/tema6/img-04.png')})`}"
@@ -151,9 +152,9 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p REST (Representational State Transfer) es un estilo arquitectónico que organiza los recursos del sistema mediante direcciones URL y utiliza métodos estándar del protocolo HTTP para interactuar con ellos. En este modelo, cada recurso puede ser consultado, creado, modificado o eliminado mediante solicitudes específicas.
+        p #[b REST (Representational State Transfer)] es un estilo arquitectónico que organiza los recursos del sistema mediante direcciones URL y utiliza métodos estándar del protocolo HTTP para interactuar con ellos. En este modelo, cada recurso puede ser consultado, creado, modificado o eliminado mediante solicitudes específicas.
         .cajon.cajon.C02.color-secundario.p-4.mb-4
-          p Por su parte, GraphQL es un lenguaje de consulta para APIs que permite a los clientes solicitar exactamente la información que necesitan. A diferencia de REST, donde cada recurso suele tener un endpoint específico, GraphQL permite realizar consultas más flexibles y obtener múltiples datos en una sola solicitud.
+          p Por su parte, #[b GraphQL] es un lenguaje de consulta para APIs que permite a los clientes solicitar exactamente la información que necesitan. A diferencia de REST, donde cada recurso suele tener un #[i endpoint] específico, GraphQL permite realizar consultas más flexibles y obtener múltiples datos en una sola solicitud.
         p Para comprender mejor las diferencias entre estos enfoques, se presenta la siguiente comparación:
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -172,9 +173,9 @@
                 td(style="background-color: #F0F8FF;") Basado en recursos.
                 td(style="background-color: #F0F8FF;") Basado en consultas.
               tr(data-aos="fade-right")
-                td Endpoints.
-                td Varios endpoints para diferentes recursos.
-                td Un único endpoint.
+                td #[i Endpoints].
+                td Varios #[i endpoints] para diferentes recursos.
+                td Un único #[i endpoint].
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Obtención de datos.
                 td(style="background-color: #F0F8FF;") Devuelve estructuras definidas por el servidor.
@@ -185,7 +186,7 @@
                 td Alta flexibilidad en consultas.
               tr(data-aos="fade-right")
                 td(style="background-color: #F0F8FF;") Uso común.
-                td(style="background-color: #F0F8FF;") Servicios web tradicionales.
+                td(style="background-color: #F0F8FF;") Servicios #[i web] tradicionales.
                 td(style="background-color: #F0F8FF;") Aplicaciones modernas y aplicaciones móviles.
 
     .row.justify-content-center
@@ -193,13 +194,13 @@
         figure
           img(src='@/assets/curso/tema6/img-05.svg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
-        p En muchos sistemas modernos, las APIs REST continúan siendo ampliamente utilizadas debido a su simplicidad y compatibilidad con tecnologías web. Sin embargo, GraphQL ha ganado popularidad en aplicaciones donde se requiere mayor flexibilidad en la consulta de datos y optimización en la comunicación entre cliente y servidor.
+        p En muchos sistemas modernos, las APIs REST continúan siendo ampliamente utilizadas debido a su simplicidad y compatibilidad con tecnologías #[i web]. Sin embargo, GraphQL ha ganado popularidad en aplicaciones donde se requiere mayor flexibilidad en la consulta de datos y optimización en la comunicación entre cliente y servidor.
         p.mb-0 En síntesis, las arquitecturas basadas en APIs permiten construir sistemas más modulares, escalables e interoperables, facilitando la integración entre diferentes aplicaciones y servicios dentro de entornos tecnológicos modernos.
 
     Separador
 
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.3. Arquitectura de microservicios
+      h2 6.3 Arquitectura de microservicios
 
     p.mb-4 La arquitectura de microservicios es un enfoque de diseño de #[i software] en el que una aplicación se construye como un conjunto de servicios pequeños, independientes y especializados, donde cada uno cumple una función específica dentro del sistema.
 
@@ -252,32 +253,32 @@
           p Supóngase una plataforma de comercio electrónico. En una arquitectura de microservicios, el sistema podría dividirse en varios servicios independientes, tales como:
 
           .cajon.cajon.C03.p-4.mb-4
-            .row.align-items-center.justify-content-center
-              .col-lg-2.col-md-4.col-8.mb-4.mb-lg-0
+            .row.justify-content-center
+              .col-lg-2.col-md-4.col-8.mb-4.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema6/img-07.svg', alt='Imagen decorativa')
               
               .col-lg-10.col-md-8.col-12
-                ul.lista-ul
+                ul.lista-ul.mb-0
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
-                    | Servicio de usuarios, encargado del registro y autenticación.
+                    span Servicio de #[b usuarios], encargado del registro y autenticación.
 
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
-                    | Servicio de productos, responsable de gestionar el catálogo.
+                    span Servicio de #[b productos], responsable de gestionar el catálogo.
 
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
-                    | Servicio de carrito de compras, que administra los productos seleccionados por el usuario.
+                    span Servicio de #[b carrito de compras], que administra los productos seleccionados por el usuario.
 
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
-                    | Servicio de pagos, encargado de procesar las transacciones.
+                    span Servicio de #[b pagos], encargado de procesar las transacciones.
 
                   li
                     i.fas.fa-computer(style="color: #FFC928 !important")
-                    | Servicio de envíos, responsable de gestionar la logística de entrega.
+                    span Servicio de #[b envíos], responsable de gestionar la logística de entrega.
           
           p Cada uno de estos servicios puede ejecutarse de forma independiente y comunicarse con los demás mediante APIs.
           p.mb-0 Gracias a esta organización, si el sistema necesita procesar un mayor número de pagos, únicamente se puede escalar el servicio de pagos sin afectar el resto de los componentes.
@@ -287,30 +288,31 @@
     Separador
 
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.4. Arquitectura serverless
+      h2 6.4 Arquitectura #[i serverless]
 
-    p.mb-4 La arquitectura serverless es un modelo de desarrollo en el que las aplicaciones se ejecutan sin que los desarrolladores tengan que administrar directamente los servidores o la infraestructura donde se ejecuta el #[i software]. Aunque los servidores siguen existiendo, su gestión es responsabilidad del proveedor de servicios en la nube.
+    p.mb-4 La arquitectura #[i serverless] es un modelo de desarrollo en el que las aplicaciones se ejecutan sin que los desarrolladores tengan que administrar directamente los servidores o la infraestructura donde se ejecuta el #[i software]. Aunque los servidores siguen existiendo, su gestión es responsabilidad del proveedor de servicios en la nube.
 
-    .row.justify-content-center.mb-4
-      .col-lg-5.order-lg-1.order-2
-        .row.justify-content-center
-          .col
-            p En este modelo, el desarrollador se enfoca principalmente en escribir el código y definir las funciones que ejecutará el sistema, mientras que la plataforma se encarga automáticamente de tareas como el aprovisionamiento de recursos, la escalabilidad, la disponibilidad y el mantenimiento de la infraestructura.
-            p La arquitectura serverless se basa en el concepto de ejecución bajo demanda, lo que significa que las funciones del sistema se ejecutan únicamente cuando ocurre un evento específico, como una solicitud de un usuario, una actualización en una base de datos o la carga de un archivo.
-      .col-lg-5.col-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema6/img-08.png', alt='') 
+    .bg-c2.px-md-5.px-4.mb-4
+      .row.justify-content-center.mb-4
+        .col-lg-5.order-lg-1.order-2
+          .row.justify-content-center
+            .col
+              p En este modelo, el desarrollador se enfoca principalmente en escribir el código y definir las funciones que ejecutará el sistema, mientras que la plataforma se encarga automáticamente de tareas como el aprovisionamiento de recursos, la escalabilidad, la disponibilidad y el mantenimiento de la infraestructura.
+              p La arquitectura #[i serverless] se basa en el concepto de ejecución bajo demanda, lo que significa que las funciones del sistema se ejecutan únicamente cuando ocurre un evento específico, como una solicitud de un usuario, una actualización en una base de datos o la carga de un archivo.
+        .col-lg-5.col-8.order-1.order-lg-2.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
+          figure
+            img(src='@/assets/curso/tema6/img-08.png', alt='') 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .cajon.cajon.C05.p-4.mb-4
-          p Este enfoque permite optimizar el uso de los recursos y reducir costos, ya que el sistema solo consume infraestructura cuando realmente se utiliza.
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          .cajon.cajon.C05.p-4.mb-4
+            p Este enfoque permite optimizar el uso de los recursos y reducir costos, ya que el sistema solo consume infraestructura cuando realmente se utiliza.
 
     .row.justify-content-center.align-items-center
       .col-lg-10        
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 17.
-          span Características de la arquitectura serverless
+          span Características de la arquitectura #[i serverless]
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -348,17 +350,17 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.cajon.C02.p-4.mb-4
-          p Supóngase una aplicación web que permite a los usuarios subir fotografías a una plataforma en línea.
+          p Supóngase una aplicación #[i web] que permite a los usuarios subir fotografías a una plataforma en línea.
           p Cuando el usuario carga una imagen, se activa automáticamente una función serverless que realiza varias tareas:
           
           .cajon.cajon.C03.p-4.mb-4
-            .row.align-items-center.justify-content-center
-              .col-lg-3.col-md-4.col-8.mb-4.mb-lg-0
+            .row.justify-content-center
+              .col-lg-3.col-md-4.col-8.mb-4.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema6/img-09.svg', alt='Imagen decorativa')
               
               .col-lg-9.col-md-8.col-12
-                ol.lista-ol--cuadro
+                ol.lista-ol--cuadro.mb-0
                   li(data-aos="flip-up") 
                     .lista-ol--cuadro__vineta
                       span a
@@ -378,14 +380,14 @@
           
           p.mb-0 En este proceso no es necesario mantener servidores activos de forma permanente. La función se ejecuta únicamente cuando ocurre la carga de la imagen.
 
-        p En síntesis, la arquitectura serverless permite desarrollar aplicaciones más flexibles y escalables, delegando la gestión de la infraestructura a los proveedores de servicios en la nube y permitiendo que los desarrolladores se concentren principalmente en la lógica del negocio y en la creación de funcionalidades del sistema.
+        p En síntesis, la arquitectura #[i serverless] permite desarrollar aplicaciones más flexibles y escalables, delegando la gestión de la infraestructura a los proveedores de servicios en la nube y permitiendo que los desarrolladores se concentren principalmente en la lógica del negocio y en la creación de funcionalidades del sistema.
 
     Separador
 
     #t_6_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 6.5. DevOps e integración continua
+      h2 6.5 DevOps e integración continua
 
-    p.mb-4 En el desarrollo moderno de #[i software], los equipos buscan entregar aplicaciones de manera más rápida, confiable y continua. Para lograrlo, surge el enfoque DevOps, una práctica que integra el trabajo de los equipos de desarrollo (development) y operaciones (operations), promoviendo la colaboración, la automatización y la mejora continua en el ciclo de vida del #[i software].
+    p.mb-4 En el desarrollo moderno de #[i software], los equipos buscan entregar aplicaciones de manera más rápida, confiable y continua. Para lograrlo, surge el enfoque #[b DevOps], una práctica que integra el trabajo de los equipos de desarrollo (#[i development]) y operaciones (#[i operations]), promoviendo la colaboración, la automatización y la mejora continua en el ciclo de vida del #[i software].
 
     .row.no-gutters.align-items-center.style___box_3.m-0.mb-4(data-aos="zoom-in")
       .col-xl.px-0
@@ -439,16 +441,16 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.cajon.C02.p-4.mb-4
-          p Supóngase que un equipo de desarrollo trabaja en una aplicación web:
+          p Supóngase que un equipo de desarrollo trabaja en una aplicación #[i web]:
           
           .cajon.cajon.C03.p-4.mb-4
-            .row.align-items-center.justify-content-center
-              .col-lg-2.col-md-4.col-8.mb-4.mb-lg-0
+            .row.justify-content-center
+              .col-lg-2.col-md-4.col-8.mb-4.mb-lg-0.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema6/img-11.svg', alt='Imagen decorativa')
               
               .col-lg-10.col-md-8.col-12
-                ol.lista-ol--cuadro
+                ol.lista-ol--cuadro.mb-0
                   li(data-aos="flip-up") 
                     .lista-ol--cuadro__vineta
                       span a

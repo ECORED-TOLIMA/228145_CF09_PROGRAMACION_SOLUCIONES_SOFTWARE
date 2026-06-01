@@ -68,7 +68,7 @@
     Separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 3.1. Diagramas de clases y sus elementos
+      h2 3.1 Diagramas de clases y sus elementos
 
     p.mb-4 El diagrama de clases es uno de los modelos más utilizados en el diseño orientado a objetos, ya que permite representar la estructura estática de un sistema. En este tipo de diagrama se describen las clases que componen el sistema, junto con sus atributos, métodos y las relaciones que existen entre ellas.
 
@@ -81,7 +81,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p Una clase representa una plantilla o modelo que define las características y comportamientos de un conjunto de objetos. Cada clase puede incluir atributos, que describen las propiedades del objeto, y métodos, que representan las acciones que puede realizar.
+        p Una #[b clase] representa una plantilla o modelo que define las características y comportamientos de un conjunto de objetos. Cada clase puede incluir #[b atributos], que describen las propiedades del objeto, y #[b métodos], que representan las acciones que puede realizar.
         p Los diagramas de clases están compuestos por diferentes elementos que permiten representar la estructura del sistema de manera clara.
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -211,22 +211,22 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        p Para comprender mejor estas relaciones, se puede considerar un ejemplo conceptual aplicado a un sistema de gestión de biblioteca. En este sistema intervienen las clases Libro, Usuario y Préstamo.
+        p Para comprender mejor estas relaciones, se puede considerar un ejemplo conceptual aplicado a un sistema de gestión de biblioteca. En este sistema intervienen las clases #[b Libro, Usuario] y #[b Préstamo].
         .tarjeta-bg01.p-4.mb-4
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-lg-2.d-none.d-lg-block
               img(src="@/assets/curso/tema3/img-12.svg", alt="alt").img100.m-auto
             .col-lg-10
-              p Un Usuario puede solicitar uno o varios Préstamos, mientras que cada Préstamo se asocia con un Libro específico. Además, el sistema registra información relevante como la fecha de préstamo y la fecha de devolución.
+              p Un #[b Usuario] puede solicitar uno o varios #[b Préstamos], mientras que cada #[b Préstamo] se asocia con un #[b Libro] específico. Además, el sistema registra información relevante como la fecha de préstamo y la fecha de devolución.
               p.mb-0 El diagrama de clases permite representar estas relaciones y comprender la estructura del sistema antes de implementar la solución.
         p En síntesis, los diagramas de clases constituyen una herramienta fundamental para el diseño de #[i software], ya que permiten organizar la estructura del sistema, identificar las relaciones entre los componentes y facilitar la documentación del diseño dentro del proceso de desarrollo orientado a objetos.
 
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 3.2. Vistas del sistema
+      h2 3.2 Vistas del sistema
 
-    p.mb-4 En el proceso de diseño de #[i software], los sistemas suelen ser complejos y están compuestos por múltiples componentes que interactúan entre sí. Para facilitar su comprensión y organización, se utilizan vistas del sistema, las cuales permiten representar el sistema desde diferentes perspectivas.
+    p.mb-4 En el proceso de diseño de #[i software], los sistemas suelen ser complejos y están compuestos por múltiples componentes que interactúan entre sí. Para facilitar su comprensión y organización, se utilizan #[b vistas del sistema], las cuales permiten representar el sistema desde diferentes perspectivas.
 
     .row.no-gutters.align-items-center.style___box_1.m-0.mb-4(data-aos="zoom-in")
       .col-xl.px-0
@@ -265,7 +265,7 @@
                 td(style="background-color: #F0F8FF;") Facilitar la organización del código y los módulos.
               tr(data-aos="fade-right")
                 td Vista física o de despliegue.
-                td Representa cómo se distribuyen los componentes del sistema en el hardware o infraestructura.
+                td Representa cómo se distribuyen los componentes del sistema en el #[i hardware] o infraestructura.
                 td Planificar la implementación del sistema.
 
         p.mb-4 Cada una de estas vistas permite analizar el sistema desde una perspectiva diferente, lo que facilita la toma de decisiones durante el diseño y la planificación del #[i software].
@@ -278,7 +278,7 @@
               .cajon.cajon.C03.p-4.mb-4
                 p.mb-0 Por ejemplo, la vista lógica permite identificar las clases y relaciones del sistema mediante diagramas de clases, mientras que la vista de despliegue permite comprender cómo se distribuyen los componentes en servidores o dispositivos dentro de una infraestructura tecnológica.
               p.mb-0 Esta combinación de perspectivas permite a los equipos de desarrollo diseñar sistemas más organizados, escalables y fáciles de mantener.
-            .col.col-lg-2.col-5.order-lg-1.order-1
+            .col.col-lg-2.col-5.order-lg-1.order-1.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema3/img-14.svg', alt='Imagen decorativa')
 
