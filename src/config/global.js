@@ -357,11 +357,6 @@ export default {
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-        {
-          nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Experto temático',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
       ],
     },
     {
@@ -388,7 +383,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
+          nombre: 'María Fernanda Pineda Mora',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
