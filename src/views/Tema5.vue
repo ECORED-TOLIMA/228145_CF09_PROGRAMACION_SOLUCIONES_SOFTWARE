@@ -17,7 +17,7 @@
         figure.d-none.d-xl-block
           img.img-hero(src='@/assets/curso/tema5/img-01.png', alt='').m-auto
 
-    p De acuerdo con lo planteado en el libro #[i software] Architecture: Perspectives on an Emerging Discipline, la arquitectura permite comprender el sistema desde una visión de alto nivel que facilita la toma de decisiones técnicas, la comunicación entre los miembros del equipo y la planificación del crecimiento del sistema.
+    p De acuerdo con lo planteado en el libro Software Architecture: Perspectives on an Emerging Discipline, la arquitectura permite comprender el sistema desde una visión de alto nivel que facilita la toma de decisiones técnicas, la comunicación entre los miembros del equipo y la planificación del crecimiento del sistema.
     p.mb-4 En el proceso de desarrollo de #[i software], definir la arquitectura implica analizar diversos aspectos del sistema, entre los que se destacan:
 
     .row.justify-content-center.align-items-center
@@ -130,7 +130,7 @@
 
         figure.mb-4(data-aos="zoom-in")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/_KZkbL0MMbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/kiV7aeJCqUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             figcaption Video: Leyenda del video
 
     Separador

@@ -155,7 +155,7 @@ export default {
       {
         titulo: 'Reusabilidad',
         texto:
-          'Implica que los componentes del sistema puedan utilizarse en otros proyectos o en diferentes partes del mismo sistema. Esto reduce el tiempo de desarrollo y mejora la consistencia del #[i software].',
+          'Implica que los componentes del sistema puedan utilizarse en otros proyectos o en diferentes partes del mismo sistema. Esto reduce el tiempo de desarrollo y mejora la consistencia del <em>software</em>.',
         imagen: require('@/assets/curso/tema2/img-14.png'),
       },
       {
