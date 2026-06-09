@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_456267" data-name="Rectángulo 456267" width="128" height="128" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="path960" d="M0-682.665H65.275v65.275H0Z" transform="translate(0 682.665)" fill="#19538d"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1180176" data-name="Grupo 1180176" transform="translate(-1088.135 -1606)">
+    <g id="Grupo_1180058" data-name="Grupo 1180058" transform="translate(1599.881 10133) rotate(180)">
+      <path id="Trazado_999622" data-name="Trazado 999622" d="M59.07,0A59.07,59.07,0,1,1,0,59.07,59.071,59.071,0,0,1,59.07,0" transform="translate(388.676 8403.93)" fill="#fff"/>
+      <g id="Grupo_1179902" data-name="Grupo 1179902" transform="translate(383.746 8399)">
+        <g id="Grupo_1179905" data-name="Grupo 1179905" clip-path="url(#clip-path)">
+          <path id="Trazado_999618" data-name="Trazado 999618" d="M64,0A64,64,0,1,1,0,64,64,64,0,0,1,64,0" fill="none"/>
+          <path id="Trazado_999619" data-name="Trazado 999619" d="M5,59a5,5,0,1,1-5,5,5,5,0,0,1,5-5" fill="#19538d"/>
+          <path id="Trazado_999620" data-name="Trazado 999620" d="M21,19a5,5,0,1,1-5,5,5,5,0,0,1,5-5" fill="#19538d"/>
+          <path id="Trazado_999621" data-name="Trazado 999621" d="M64,124A60.068,60.068,0,0,1,4,64H7A57,57,0,1,0,22.408,25.024L20.22,22.972A60,60,0,1,1,64,124" fill="#19538d"/>
+          <rect id="Rectángulo_456268" data-name="Rectángulo 456268" width="128" height="128" fill="none"/>
+          <rect id="Rectángulo_456269" data-name="Rectángulo 456269" width="128" height="128" fill="none"/>
+        </g>
+      </g>
+      <g id="Grupo_1179903" data-name="Grupo 1179903" transform="translate(481.67 8497.729) rotate(180)">
+        <g id="Grupo_1099618" data-name="Grupo 1099618" transform="translate(0 0)">
+          <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="68.18" height="69.001" transform="translate(0)" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="g954" transform="translate(1119.389 2320.732)">
+      <g id="g956" transform="translate(0 -682.665)">
+        <g id="g958" clip-path="url(#clip-path-2)">
+          <path id="path964" d="M209.976-551.611H160v-49.721h49.976Zm-46.151-3.825h42.327v-42.072H163.824Z" transform="translate(-144.701 609.109)" fill="#19538d"/>
+          <path id="path966" d="M11.474-389.858H0v-11.474H11.474Zm-7.649-3.825H7.649v-3.825H3.825Z" transform="translate(0 428.233)" fill="#19538d"/>
+          <path id="path968" d="M11.474-629.858H0v-11.474H11.474Zm-7.649-3.825H7.649v-3.825H3.825Z" transform="translate(0 645.284)" fill="#19538d"/>
+          <path id="path970" d="M11.474-149.859H0v-11.474H11.474Zm-7.649-3.825H7.649v-3.825H3.825Z" transform="translate(0 211.182)" fill="#19538d"/>
+        </g>
+      </g>
+      <g id="g972" transform="translate(9.562 -651.94)">
+        <path id="path974" d="M7.649-16.175H0V-20H7.649Z" transform="translate(0 20)" fill="#19538d"/>
+      </g>
+      <g id="g976" transform="translate(0 -682.665)">
+        <g id="g978" clip-path="url(#clip-path-2)">
+          <g id="g984" transform="translate(3.825 13.514)">
+            <path id="path986" d="M-6.613,9.562H-20V0h3.825V5.737h9.562Z" transform="translate(20 0)" fill="#19538d"/>
+          </g>
+          <g id="g988" transform="translate(3.825 42.199)">
+            <path id="path990" d="M-16.175-90.438H-20V-100H-6.613v3.825h-9.562Z" transform="translate(20 100)" fill="#19538d"/>
+          </g>
+          <g id="g992" transform="translate(23.076 15.426)">
+            <path id="path994" d="M-322.788-180a17.231,17.231,0,0,1,17.211,17.211,17.231,17.231,0,0,1-17.211,17.211A17.231,17.231,0,0,1-340-162.788,17.231,17.231,0,0,1-322.788-180Zm0,30.6A13.4,13.4,0,0,0-309.4-162.788a13.4,13.4,0,0,0-13.386-13.386,13.4,13.4,0,0,0-13.386,13.386A13.4,13.4,0,0,0-322.788-149.4Z" transform="translate(339.999 180)" fill="#19538d"/>
+          </g>
+          <g id="g996" transform="translate(30.725 26.317)">
+            <path id="path998" d="M-150.438,2.651A9.573,9.573,0,0,1-160-6.91a9.548,9.548,0,0,1,2.391-6.32l2.868,2.53a5.726,5.726,0,0,0-1.434,3.79,5.744,5.744,0,0,0,5.737,5.737A5.744,5.744,0,0,0-144.7-6.91a5.726,5.726,0,0,0-1.434-3.79l2.868-2.53a9.548,9.548,0,0,1,2.391,6.32A9.573,9.573,0,0,1-150.438,2.651Z" transform="translate(160 13.23)" fill="#19538d"/>
+          </g>
+          <g id="g996-2" data-name="g996" transform="translate(49.849 38.957) rotate(180)">
+            <path id="path998-2" data-name="path998" d="M-150.438,2.652A9.573,9.573,0,0,1-160-6.91a9.548,9.548,0,0,1,2.391-6.32l2.868,2.53a5.726,5.726,0,0,0-1.434,3.79,5.744,5.744,0,0,0,5.737,5.737A5.744,5.744,0,0,0-144.7-6.91a5.726,5.726,0,0,0-1.434-3.79l2.868-2.53a9.548,9.548,0,0,1,2.391,6.32A9.573,9.573,0,0,1-150.438,2.652Z" transform="translate(160 13.23)" fill="#19538d"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
